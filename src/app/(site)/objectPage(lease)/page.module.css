@@ -1,0 +1,178 @@
+.ObjectTitle {
+    display:flex;
+    margin-top:100px;
+    margin-left:200px;
+    gap:360px;
+    align-items:center;
+}
+.Title {
+    color:#1F3766;
+    font-size:80px;
+    margin:0px;
+}
+.Circle {
+    width: 25px;
+    height: 25px;
+    background-color: #57CF72;
+    border-radius: 50%;
+    margin-right:15px;
+    margin-top:25px;
+}
+.CircleText {
+    font-size:24px;
+}
+.TitleText {
+    display:flex;
+    text-align:center;
+    justify-content:center;
+}
+.IconsDesc {
+    display:flex;
+    gap:40px;
+}
+.Icon {
+    display:flex;
+    gap:6px;
+    align-items:center;
+}
+.IconsDesc {
+    margin-left:200px;
+    margin-top:40px;
+}
+.OfficeSect {
+    display:flex;
+    margin-left:200px;
+    margin-top:60px;
+}
+.OfficeDesc {
+    width:600px;
+    margin-right:230px;
+}
+.OfficePrice {
+    margin-top:-30px;
+}
+.PriceTitle {
+    font-size:40px;
+    color:#1F3766;
+}
+.OfficeBtn {
+    width:335px;
+    text-align:center;
+    margin-top:30px;
+    border:2px solid #3460AE;
+    padding-top:21px;
+    padding-bottom:20px;
+    color:#1F3766;
+    margin-left:45px;
+}
+.OfficeImg {
+    display:flex;
+    margin-left:300px;
+    margin-top:200px;
+}
+
+.popup_title {
+    font-size:80px;
+    color:#214A90;
+    margin-bottom:30px;
+    margin-top:100px;
+    margin-left:40px;
+}
+.popup {
+    position:fixed;
+    width:100%;
+    height:100%;
+    background-color:rgba(0, 0, 0,0.8);
+    top:0;
+    left:0;
+    padding:40px 20px;
+    opacity:0;
+    visibility:hidden;
+    overflow-y:auto;
+    overflow-x:hidden;
+    transition:all 0.4s ease 0s;
+}
+.popup:target {
+    opacity:1;
+    visibility:visible;
+}
+.popup_body {
+    min-height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.popup_content {
+    background-color:#FFFF;
+    color:#000;
+    max-width:1200px;
+    position:relative;
+    width:1200px;
+    height:830px;
+    transition:all 0.4s ease 0s;
+    opacity:0;
+    transform:translate(0px, -100%);
+    /* height:840px; */
+}
+.popup:target .popup_content {
+    transform:translate(0px, 0px);
+    opacity:1;
+}
+.popup_close {
+    position:absolute;
+    right:40px;
+    top:40px;
+}
+.popup_contentItem {
+    margin-left:40px;
+}
+.popup_area {
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+}
+.popup_form {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    width:560px;
+    margin-bottom:20px;
+    height:60px;
+}
+.popup_form input {
+    border:1px solid #3460AE;
+    padding:20px;
+}
+.popup_submit {
+    background:#3460AE;
+    width:560px;
+    height:60px;
+    color:#FFFF;
+    margin-top:20px;
+}
+.popup_textItem {
+    margin-bottom:40px;
+}
+.popup_textEnd {
+    font-size:12px;
+    color:#707070;
+    margin-bottom:15px;
+    margin-top:20px;
+}
+.popup_textEnd a {
+    color:#707070;
+    border-bottom:1px solid;
+}
+.href {
+    text-decoration:none;
+}
+.popup_contentItem {
+    display:flex;    
+}
+.popup_text {
+    margin-right:140px;
+    margin-top:-19px;
+}

@@ -1,0 +1,75 @@
+.TourismObject {
+    object-fit:cover;
+    width:100%;
+    position:relative;
+}
+.ImgTitle {
+    font-size:80px;
+}
+.TitleText {
+    position:absolute;
+    top:414px;
+    left:200px;
+    color:#FFFF;
+}
+.ImgTitleDesc {
+    font-size:24px;
+}
+.ImgList {
+    margin-top:100px;
+    margin-left:200px;
+}
+.ImgListItems {
+    display:flex;
+}
+.ImgListRight {
+    display:flex;
+    flex-wrap:wrap;
+    width:540px;
+    margin-left:60px;
+    justify-content: space-between;
+    gap:40px;
+}
+.ObjectBase {
+    margin-top:200px;
+    margin-left:200px;
+}
+.BaseTitle {
+    font-size:80px;
+    color:#1F3766;
+    margin-bottom:40px;
+}
+.AboutBase {
+    display:flex;
+}
+.BaseDesc {
+    width:550px;
+    line-height:20px;
+    margin-right:110px;
+    margin-top:-20px;
+}
+.BaseDescText {
+    margin-bottom:20px;
+}
+.InfoText {
+    display:flex;
+    align-items:center;
+    gap:5px;
+}
+.BaseDescInfo {
+    display:flex;
+}
+.Info {
+    margin-bottom:-15px;
+    display:flex;
+    gap:40px;
+}
+.InfoLink {
+    text-decoration:none;
+}
+.BaseDescInfo {
+    width:700px;
+}
+.InfoDesc {
+    margin-right:70px;
+}

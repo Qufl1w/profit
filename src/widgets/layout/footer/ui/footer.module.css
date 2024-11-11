@@ -1,0 +1,26 @@
+.sectionEndPage {
+  background:#102349;
+  margin-top:250px;
+}
+.sectionEndPageImg {
+  padding-top:50px;
+  padding-left:312px;
+}
+.sectionEndPageGroup {
+  color:#fff;
+  display:flex;
+  gap:150px;
+  padding-left:312px;
+  padding-top:100px;
+}
+.promotionEndPage1 {
+  width:246px;
+  border-right:1px solid #9F9F9F;
+}
+.ItemLinkEnd {
+  text-decoration:none;
+  color:#fff;
+}
+.ItemLinkEnd:hover {
+  text-decoration:underline;
+}

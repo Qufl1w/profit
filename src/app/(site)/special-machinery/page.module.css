@@ -1,0 +1,57 @@
+.SpecMacTitle {
+    font-size:80px;
+    color:#1F3766;
+    margin-left:200px;
+    margin-top:100px;;
+}
+.SpecMacDescImg {
+    margin-top:80px;
+    margin-left:100px;
+    position:absolute;
+
+}
+.SpecMacBlock {
+    width:470px;
+    height:240px;
+    background:#FFFF;
+    margin-left:800px;
+    margin-top:360px;
+    position:relative;
+}
+.SpecMacBlockText {
+    width:390px;
+    height:170px;
+    margin-left:40px;
+    padding-top:20px;
+}
+
+.CatalogTitle {
+    font-size:80px;
+    color:#1F3766;
+    margin-top: 200px;
+    margin-left:200px;
+}
+.CatalogMenu {
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:80px;
+    margin-left:200px;
+}
+.CatalogCard {
+    margin-bottom: 40px;
+    width: 370px;
+    height: 250px;
+    margin-right: 45px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    z-index: 1;
+}
+.CatalogCardText {
+    position:absolute;
+    margin-top:200px;
+    margin-left:20px;
+    font-size:24px;
+    color:#FFFFFF;
+}

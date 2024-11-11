@@ -1,0 +1,129 @@
+.objectPageImg {
+    object-fit:cover;
+    width:100%;
+    position:relative;
+}
+.ImgTitle {
+    font-size:80px;
+    margin-bottom:30px;
+}
+.ImgText {
+    top:414px;
+    left:200px;
+    position:absolute;
+    color:#FFFF;
+    font-size:24px;
+}
+
+.ComplexItem {
+    background:#102349;
+}
+.ComplexItem {
+padding-left:200px;
+}
+.ImgList {
+    padding-top:100px;    
+    display:flex;
+    flex-wrap:wrap;
+}
+.ImgListRight {
+    display:flex;
+    flex-wrap:wrap;
+    width:540px;
+    margin-left:60px;
+    justify-content: space-between;
+    gap:40px;
+}
+.ImgListTitle {
+    display:flex;
+    color:#FFFF;
+    font-size:80px;
+    margin-top:200px;
+    margin-bottom:45px;
+}
+
+.AboutComplexTitle {
+    display:flex;
+    color:#FFFF;
+    margin-bottom:30px;
+}
+.AboutComplexDesc {
+    display:flex;
+    align-items: center;
+    margin-right:20px;
+}
+.AboutComplexImg {
+    float:right;
+}
+.AboutComplexText {
+    width:550px;
+    color: #FFFF;
+    padding-bottom:160px;
+}
+.AboutComplex {
+    max-width:1190px;
+}
+
+.Title {
+    font-size:80px;
+    color:#1F3766;
+    margin-bottom:40px;
+}
+.Developer {
+    margin-left:200px;
+    margin-top:100px;
+}
+.DevSection {
+    display:flex;
+}
+.DevSectionItem {
+    width:600px;
+}
+.DevLink {
+    display:flex;
+    align-items:center;
+    gap:40px;
+    margin-top:40px;
+    margin-bottom:60px;
+}
+.DevSiteLink {
+    text-decoration:none;
+}
+.DevFilesItem {
+    margin-bottom:20px;
+    display:flex;
+    align-items:center;
+}
+.DevSectionItem {
+    margin-right:40px;
+    margin-top:20px;
+}
+
+.Mortgage {
+    margin-left:200px;
+    margin-top:240px;
+}
+.MortTitle {
+    font-size:80px;
+    color: #1F3766;
+    margin-bottom:50px;
+}
+.DomRF {
+    width:300px;
+    margin-right:210px;
+}
+.MortImg {
+    margin-bottom:20px;
+}
+.MortLink {
+    margin-left:90px;
+}
+.MortSection {
+    display:flex;
+}
+.MortItem {
+    width:730px;
+}
+.MortItemText {
+    margin-bottom:20px;
+}

@@ -1,0 +1,87 @@
+.Title {
+    font-size:80px;
+    color:#1F3766;
+}
+.PromotionImages {
+    margin-top:100px;
+    margin-left:200px;
+}
+.MenuItem1 {
+    display:flex;
+    gap:40px;
+}
+.MenuImg {
+    position:relative;
+    margin-bottom:40px;
+}
+.Img1BlockTitle {
+    position: absolute;
+    width:150px;
+    color:#FFFF;
+    margin-top:20px;
+    background: #3460AE;
+    padding:10px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.ImgBlockText {
+    font-size:40px;
+}
+.Img1BlockDesc {
+    position: absolute;
+    margin-top:310px;
+    color:#FFFF;
+    background: #1F3766E5;
+    opacity:90%;
+    padding:20px;
+    width:370px;
+    height:150px;
+}
+.Img2BlockTitle {
+    position: absolute;
+    width:150px;
+    color:#FFFF;
+    margin-top:20px;
+    background: #3460AE;
+    padding:10px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.Img2BlockDesc {
+    position: absolute;
+    margin-top:110px;
+    color:#FFFF;
+    background: #1F3766E5;
+    opacity:90%;
+    padding:20px;
+    width:350px;
+    height:80px;
+}
+
+.Img3BlockTitle {
+    position: absolute;
+    width:150px;
+    color:#FFFF;
+    margin-top:20px;
+    background: #3460AE;
+    padding:10px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.Img3BlockDesc {
+    position: absolute;
+    margin-top:180px;
+    color:#FFFF;
+    background: #1F3766E5;
+    opacity:90%;
+    padding:20px;
+    width:350px;
+    height:80px;
+}
+.MenuItem3 {
+    display:flex;
+    gap:40px;
+}

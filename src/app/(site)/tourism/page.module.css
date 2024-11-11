@@ -1,0 +1,32 @@
+.TourismTitle {
+    margin-top:100px;
+    margin-left:200px;
+    font-size:80px;
+    color:#1F3766;
+}
+.TourismSection {
+    display:flex;
+    margin-top:80px;
+    margin-left:200px;
+}
+.TourismImgText {
+    margin-left:40px;
+}
+.TourismImgTitle {
+    font-size:40px;
+    color:#1F3766;
+}
+.TourismImgDesc {
+    width:460px;
+}
+.TourismLink {
+    text-decoration:none;
+    
+}
+.TourismLinkMore {
+    text-decoration:none;
+    color:#1F3766;
+}
+.TourismRublinoImg {
+    margin-left:370px;
+}

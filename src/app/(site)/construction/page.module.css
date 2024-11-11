@@ -1,0 +1,130 @@
+.ConstTitle {
+    font-size:80px;
+    color:#1F3766;
+    margin-top:100px;
+    margin-left:200px;
+}
+.ConstBtn {
+    display:flex;
+    margin-top:80px;
+    margin-left:200px;
+    gap:40px;
+}
+.ConstText1Btn {
+    font-size:24px;
+    color:#B5B5B5;
+}
+.ConstText1Btn:hover {
+    color:#3460AE;
+    border-bottom:3px solid #3460AE;
+}
+.ConstText2Btn {
+    font-size:24px;
+    color:#B5B5B5;
+}
+.ConstText2Btn:hover {
+    color:#3460AE;
+    border-bottom:3px solid #3460AE;
+}
+span.spncolor {
+    color:#1F3766;
+}
+.ConstFilter {
+    display:flex;
+    gap:30px;
+    margin-left:200px;
+}
+.ConstStage {
+    padding:20px;
+    color:#1F3766;
+    border:2px solid#3460AE;
+    width:240px;
+    text-align:center;
+}
+.ConstChange {
+    padding:20px;
+    color:#1F3766;
+    border:2px solid#3460AE;
+    width:295px;
+    text-align:center;
+}
+.ConstApply {
+    width:175px;
+    height:60px;
+    background:#3460AE;
+    text-align:center;
+    color:#fff;
+    margin-top:17px;
+}
+
+
+
+.ConstImgMenu {
+    display:flex;
+}
+.ConstMenuImg1 {
+    margin-top:80px;
+    margin-left:200px;
+}
+.ConstMenuImg2 {
+    margin-top:80px;
+    margin-left:80px;
+}
+.ConstMenuImg1Title1 {
+    font-size:40px;
+    color:#272727;
+    margin-top:20px;
+    margin-right:69px;
+}
+.ConstMenuImg1Title2 {
+    margin-top:35px;
+}
+.ConstMenuImg1Text {
+    display:flex;
+    gap:55px;
+}
+.ConstMenuImg2Title1 {
+    font-size:40px;
+    color:#272727;
+    margin-top:20px;
+    margin-right:134px;
+    
+}
+.ConstMenuImg2Title2 {
+    margin-top:35px;
+    text-align:right;
+}
+
+.ConstImgMenu2 {
+    display:flex;
+    gap:80px;
+    margin-left:200px;
+    margin-top:80px;
+}
+.ConstMenuImg3Title1 {
+    font-size:40px;
+    color:#272727;
+    margin-top:20px;
+    margin-right:155px;
+}
+.ConstMenuImg3Title2 {
+    margin-top:35px;
+}
+.ConstMenuImg3Text {
+    display:flex;
+    gap:55px;
+}
+
+.ConstMenuImg4Title1 {
+    font-size:40px;
+    color:#272727;
+    margin-top:20px;
+    margin-right:100px;
+}
+.ConstMenuImg4Title2 {
+    margin-top:35px;
+}
+.ConstMenuImg4Text {
+    display:flex;
+    gap:55px;
+}

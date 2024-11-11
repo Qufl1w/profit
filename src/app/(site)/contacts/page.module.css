@@ -1,0 +1,25 @@
+.ContactsTitle {
+    font-size:80px;
+    color:#1F3766;
+    margin-top:100px;
+    margin-left:200px;
+}
+.ContactsImages {
+    position:relative;
+    margin-bottom:325px;
+}
+.ContactsBlock {
+    position:absolute;
+    width:600px;
+    height:250px;
+    background-color:#3460AE;
+    color:#FFFF;
+    line-height:20px;
+    margin-left:240px;
+    top: 71%;
+}
+.ContactsBlockText {
+    padding-top:40px;
+    margin-left:75px;
+}
+
