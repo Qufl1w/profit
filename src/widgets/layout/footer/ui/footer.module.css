@@ -4,18 +4,17 @@
 }
 .sectionEndPageImg {
   padding-top:50px;
-  padding-left:312px;
+  margin-left:312px;
 }
 .sectionEndPageGroup {
   color:#fff;
   display:flex;
   gap:150px;
-  padding-left:312px;
-  padding-top:100px;
+  margin-left:312px;
+  margin-top:100px;
 }
 .promotionEndPage1 {
   width:246px;
-  border-right:1px solid #9F9F9F;
 }
 .ItemLinkEnd {
   text-decoration:none;
@@ -23,4 +22,33 @@
 }
 .ItemLinkEnd:hover {
   text-decoration:underline;
+}
+@media (max-width: 1000px) {
+  .sectionEndPageImg {
+    margin-left:30px;
+  }
+  .sectionEndPageGroup {
+    margin-left:30px;
+    gap:130px;
+    margin-top:60px;
+  }
+  .promotionEndPage3 {
+    margin-right:30px;
+  }
+}
+@media (max-width: 640px) {
+  .sectionEndPageGroup {
+    color:#fff;
+    display:flex;
+    flex-wrap:wrap;
+    gap:70px;
+    width:640px;
+    margin-top:60px;
+  }
+}
+@media (max-width: 320px) {
+  .sectionEndPageGroup {
+    flex-direction: column;
+    gap:20px;
+  }
 }

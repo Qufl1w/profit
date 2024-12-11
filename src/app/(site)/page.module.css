@@ -1,358 +1,975 @@
-.text1 {
-  color:white;
+.Img1Text {
+  margin-left: 200px;
+  color: #FFFF;
   position:absolute;
-  font-size:16px;
-  padding-top:280px;
-  padding-left:200px;
-  padding-right:862px;
-  padding-bottom:659px;
-  line-height:19.2px;
-  width: 538px;;
+  z-index:1;
+  margin-top:180px;
 }
+
+.text1 {
+  width: 538px;
+  margin-bottom:40px;
+}
+
 .text2 {
-color:white;
-position:absolute;
-font-size:90px;
-padding-top:405px;
-padding-left:200px;
-padding-bottom:401px;
-padding-right: 286px;
-width:1114;
+  font-size: 90px;
+  width: 1114;
+  margin-bottom:40px;
 }
 .text3 {
-color:white;
-position:absolute;
-font-size: 16px;
-padding-left:200px;
-padding-right:1268px;
-padding-top:664px;
-padding-bottom:341px;
+  text-decoration: none;
+  color: #FFFF;
+}
+.page1_1 {
+  margin-left:200px;
+}
+.img1 {
+  position: relative;
 }
 
 .text4 {
-color:#1F3766;
-font-size:80px;
-line-height:97.4px;
-padding-top:100px;
-padding-bottom:53px;
-}
-.block1 {
-position:absolute;
-width:600px;
-height:378px;
-background:#3460AE;
-margin-left:600px;
-color:white;
-font-size:40px;
-line-height:48.52px;
+  color: #1F3766;
+  font-size: 80px;
+  line-height: 97.4px;
+  padding-top: 100px;
+  padding-bottom: 53px;
 }
 
-.text7 {
-color: #1F3766;
-font-size:80px;
-padding-left:200px;
-padding-top:200px;
-}
-.text8 {
-font-size: 16px;
-padding-left:200px;
-padding-top:40px;
-padding-bottom:80px;
-width:700px;
-line-height:19.2px;
-}
-.btn {
-padding:12px;
-border:1px solid #fff;
-text-decoration: none;
-color:white;
-font-size:16px;
-width:250px;
+.block1 {
+  position: absolute;
+  width: 600px;
+  height: 378px;
+  background: #3460AE;
+  margin-left: 600px;
 }
 .sectionPromotionBody {
-display:grid;
-grid-template-columns:repeat(1,1fr);
-gap:15px;
-align-items: center;
-  justify-content: center;
-  height: 100%;
-  padding:0 20px;
+  margin:40px 40px;
+  color: white;
+  font-size: 24px;
+  line-height: 48.52px;
 }
 .sectionPromotionBodyTitle {
-font-size:40px;
-padding:0;
-margin:0;
+  font-size: 39px;
+  padding: 0;
+  margin: 0;
+}
+.page1_3 {
+  margin-left:200px;
+  padding-top: 200px;
+}
+.text7 {
+  color: #1F3766;
+  font-size: 80px;
+}
+
+.text8 {
+  font-size: 16px;
+  padding-top: 40px;
+  margin-bottom: 80px;
+  width: 700px;
+  line-height: 19.2px;
+}
+
+.btn {
+  padding:20px;
+  text-align:center;
+  border: 2px solid #fff;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  width: 250px;
+}
+.btn:hover {
+  background: #FFFFFF;
+  color: #1F3766;
+}
+.btnProm {
+  text-decoration:none;
+  font-size:16px;
+  color:#FFFF;
+  margin-top:60px;
 }
 .sectionPromotionBodyText {
-padding:0;
-margin:0; 
+  margin-bottom:40px;
+  padding: 0;
 }
 
 .promotionCardMenu {
-  display:flex;
-  flex-wrap:wrap;
-  width:1200px;
-  gap:45px;
-  margin-left:200px;
-}
-.MenuImg1 {
-  position: relative;
-}
-.CardMenuText {
-  position:absolute;
-  font-size:24px;
-  text-decoration:none;
-  color:#FFFF;
-  margin-left:20px;
-  margin-top:400px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  gap: 45px;
 }
 
+.MenuImg1 {
+  position: relative;
+  width: 370px;
+  height: 450px;
+  overflow: hidden;
+}
+.MenuImg1::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1F3766B2; 
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1; 
+}
+.MenuImg1:hover::after {
+  opacity: 1; 
+}
+.MenuImg1:hover .CardMenuText {
+  color: #FFFFFF;
+}
+.CardMenuText {
+  position: absolute;
+  font-size: 24px;
+  text-decoration: none;
+  color: #FFFF;
+  margin-left: 20px;
+  margin-top: 400px;
+  z-index: 2;
+}
+.sectionInfoDesc {
+  display:flex;
+}
 .sectionInfo {
-font-size:80px;
-color:#3460AE;
-display:flex;
+  margin-left:200px;
+  margin-top:200px;
+  display:flex;
 }
 .sectionInfoText1 {
-padding-left:357px;
-padding-top:277px;
+  margin-left:60px;
+  text-align:center;
+  margin-right:175px;
 }
 .sectionInfoText2 {
-padding-left:235px;
-padding-top:277px;
+  text-align:center;
+  margin-right:153px;
 }
 .sectionInfoText3 {
-padding-left:243px;
-padding-top:277px;
+  text-align:center;
 }
-.sectionInfo2 {
-display:flex;
+.InfoText1 {
+  font-size:80px;
+  color:#3460AE;
 }
-.sectionInfoText1_1 {
-font-size:16px;
-width:227px;
-height:38px;
-padding-left:286px;
-text-align:center;
-padding-top:10px;
-}
-.sectionInfoText2_2 {
-font-size:16px;
-width:210px;
-height:38px;
-padding-left:182px;
-text-align:center;
-padding-top:10px;
-}
-.sectionInfoText3_3 {
-font-size:16px;
-width:249px;
-height:38px;
-padding-left:170px;
-text-align:center;
-padding-top:10px;
+.InfoText2 {
+  width:240px;
 }
 .TextItemImg {
-display:grid;
-grid-template-columns:repeat(2,1fr);
-gap:30px;
-padding-top:452px;
-padding-left:200px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding-top: 452px;
+}
+.sectionTextInfo {
+  margin-left:200px;
 }
 .sectionTextInfoTitle {
-padding-bottom:40px;
+  padding-bottom: 40px;
 }
+
 .sectionTextInfo1 {
-width:616px;
+  width: 616px;
 }
+
 .sectionText {
-padding-top:315px;
+  margin-top: 315px;
 }
+
 .sectionTextImg {
-display:flex;
-gap:87px;
+  display: flex;
+  gap: 87px;
 }
+
 .sectionTextInfoTitle {
-color:#1F3766;
-font-size:80px;
+  color: #1F3766;
+  font-size: 80px;
 }
+
 .sectionImg3 {
-padding-top:200px;
+  margin-top: 200px;
 }
 .sectionObjectMenu {
-padding-top:200px;
+  padding-top: 200px;
+  margin-left:200px;
 }
+
 .sectionObjectMenuText1 {
-color:#1F3766;
-font-size:80px;
-padding-left:200px;
+  color: #1F3766;
+  font-size: 80px;
 }
+
 .sectionImg1_3 {
-display:flex;
-padding-left:200px;
-padding-top:80px;
+  display: flex;
+  margin-top: 80px;
 }
+
 .sectionImg1_3Text {
-padding-left:50px;
+  margin-left: 50px;
 }
+
 .sectionImg1_3TextTitle {
-color: #1F3766;
-font-size:40px;
+  color: #1F3766;
+  font-size: 40px;
 }
+
 .sectionImg1_3TextDesc {
-display:flex;
-gap:20px;
+  display: flex;
+  gap: 20px;
 }
+
 .sectionImg1_3Btn {
-text-decoration:none;
-color:#1F3766;
+  text-decoration: none;
+  color: #1F3766;
 }
+
 .sectionImg1_3TextDesc1 {
-padding-bottom: 29px;
+  padding-bottom: 29px;
 }
+
 .sectionImg1_3Btn:hover {
-text-decoration:underline;
+  text-decoration: underline;
 }
+
 .sectionImg1_3Btn2 {
-display:block;
-margin:0 auto;
-margin-top:50px;
-padding:20px;
-text-decoration:none;
-color:#1F3766;
-border:2px solid#3460AE;
-width:fit-content;
-width:250px;
-text-align:center;
+  display: block;
+  margin-left:475px;
+  margin-top: 50px;
+  padding: 20px;
+  text-decoration: none;
+  color: #1F3766;
+  border: 2px solid#3460AE;
+  width: fit-content;
+  width: 250px;
+  text-align: center;
 }
+
 .sectionImg1_3Btn2:hover {
-text-decoration:underline;
+  background: #3460AE;
+  color: #FFFFFF;
 }
 
 /* ffffffffffffffffffffffffffff */
-
+.Img2_3 {
+  margin-left:200px;
+}
 .sectionImg2_3Title {
-font-size:80px;
-color:#1F3766;
-padding-top:200px;
-padding-left:200px;
+  font-size: 80px;
+  color: #1F3766;
+  padding-top: 200px;
 }
+
 .sectionImg2_3 {
-display:flex;
-flex-direction:row-reverse;
-padding-right:200px;
-padding-top:80px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 400px;
+  padding-top: 80px;
 }
+
 .sectionImg2_3Pic {
-float:right;
+  float: right;
 }
+
 .sectionImg2_3TextTitle {
-font-size:40px;
-color:#1F3766;
+  font-size: 40px;
+  color: #1F3766;
 }
+
 .sectionImg2_3TextDesc {
-width:491px;
+  width: 491px;
 }
+
 .sectionImg2_3Desc {
-padding-bottom:29px;
+  margin-bottom: 29px;
 }
+
 .sectionImg2_3Text {
-padding-right:39px;
+  padding-right: 39px;
 }
+
 .sectionImg2_3Link {
-text-decoration:none;
+  text-decoration: none;
 }
+
 .sectionImg2_3Link:hover {
-text-decoration:underline;
+  text-decoration: underline;
 }
+
 .block2 {
-display:flex;
-justify-content:center;
-align-items: center;
-margin-top:460px;
-margin-right:304px;
-color:#fff;
-position: absolute;
-width:526px;
-height:80px;
-background:#3460AE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 460px;
+  margin-right: 304px;
+  color: #fff;
+  position: absolute;
+  width: 526px;
+  height: 80px;
+  background: #3460AE;
 }
+
 .sectionImg2_3TextDesc1 {
-display:flex;
-gap:25px;
+  display: flex;
+  gap: 25px;
 }
+
 .sectionImg1_3Btn3 {
-display:block;
-margin:0 auto;
-margin-top:90px;
-padding:20px;
-text-decoration:none;
-color:#1F3766;
-border:2px solid#3460AE;
-width:fit-content;
-width:250px;
-text-align:center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 90px;
+  padding: 20px;
+  text-decoration: none;
+  color: #1F3766;
+  border: 2px solid#3460AE;
+  width: 250px;
+  text-align: center;
+}
+.sectionImg1_3Btn3:hover {
+  background: #3460AE;
+  color: #FFFFFF;
 }
 
 /* ffffffffffffffffffff */
-
+.promotionPartners {
+  margin-left:200px;
+}
 .promotionPartnersTitle {
-color:#1F3766;
-font-size:80px;
-padding-top:200px;
-padding-left:200px;
+  color: #1F3766;
+  font-size: 80px;
+  padding-top: 200px;
 }
+
 .promotionPartnersImg {
-display:flex;
-gap:40px;
-padding-top:80px;
-padding-left:200px;
+  display: flex;
+  gap: 40px;
+  padding-top: 80px;
 }
 
 /* ffffffffffffffffffff */
 
+.promotionAdvantages {
+  margin-left:200px;
+}
 .promotionAdvantagesTitle {
-color:#1F3766;
-font-size:80px;
-padding-top:300px;
-padding-left:200px;
+  color: #1F3766;
+  font-size: 80px;
+  padding-top: 300px;
 }
+
 .promotionAdvantages01 {
-font-size:120px;
-color:#3460AE80;
-padding-top:80px;
-padding-left:200px;
+  font-size: 120px;
+  color: #3460AE80;
+  padding-top: 80px;
 }
+
 .promotionAdvantagesText01 {
-font-size:40px;
-color:#1F3766;
+  font-size: 40px;
+  color: #1F3766;
 }
+
 .promotionAdvantagesText {
-padding-left:80px;
-width:800px;
+  margin-left: 80px;
+  width: 800px;
 }
+
 .promotionAdvantages1 {
-display:flex;
-align-items:center;
+  display: flex;
+  align-items: center;
 }
 
 /* ffffffffffffffffffff */
 
+.sectionObjectMap {
+  margin-left:200px;
+}
 .sectionObjectMapText {
-position:absolute;
+  position: absolute;
+}
+
+.ObjectMapTitle {
+  font-size: 80px;
+  color: #1F3766;
+  padding-top: 200px;
+}
+
+.ObjectMapDesc {
+  width: 528px;
+  margin-top: 40px;
+  line-height: 19.2px;
+}
+
+.ObjectMapImg {
+  padding-left: 604px;
+  padding-top: 200px;
+}
+
+@media (max-width: 1000px) {
+  .Img1Text {
+    margin-left: 20px;
+    margin-top:67px;
+  }
+  .text4 {
+    font-size:70px;
+  }
+  .MenuImg1 {
+    width: 370px;
+    height: 450px;
+    object-fit: cover;
+  }
+  .block1 {
+    margin-left:360px;
+    margin-top:95px;
+  }
+  .page1_3 {
+    margin-left:20px;
+    padding-top: 200px;
+  }
+  .promotionCardMenu {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    gap: 45px;
+  }
+  .MenuImg1 {
+    position: relative;
+  }
+  .CardMenuText {
+    position: absolute;
+    font-size: 24px;
+    text-decoration: none;
+    color: #FFFF;
+    margin-left: 20px;
+    margin-top: 400px;
+  }
+  .sectionInfo {
+    margin-left:0px;
+  }
+  .InfoText1 {
+    font-size:70px;
+  }
+  .InfoText2 {
+    width:200px;
+  }
+  .sectionInfoText1 {
+    margin-right:120px;
+  }
+  .sectionInfoText2 {
+    margin-right:120px;
+  }
+  .sectionInfoText3 {
+    text-align:center;
+  }
+  .sectionTextInfo {
+    margin-left:20px;
+  }
+  .sectionTextInfoTitle {
+    font-size:70px;
+  }
+  .TextItemImg {
+    display:flex;
+    gap: 30px;
+  }
+  .sectionTextImg {
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    margin-right:50px;
+  }
+  .TextItemImg {
+    padding-top:0px;
+  }
+  .ItemImg {
+    width:150px;
+    height:40px;
+  }
+  .sectionTextImg {
+    gap:60px;
+  }
+  .sectionObjectMenuText1 {
+    font-size:70px;
+  }
+  .sectionObjectMenu {
+    margin-left:20px;
+  }
+  .img4 {
+    width:450px;
+    height:400px;
+  }
+  .sectionImg1_3Text {
+    margin-left:30px;
+    max-height:315px;
+    margin-top:15px;
+  }
+  .sectionImg1_3TextTitle {
+    margin-bottom:20px;
+  }
+  .Img1_3Desc {
+    margin-bottom:5px;
+  }
+  .sectionImg1_3Btn2 {
+    margin-left:375px;
+  }
+  .sectionImg1_3Btn2:hover {
+    background: #3460AE;
+    color: #FFFFFF;
+  }
+  .Img2_3 {
+    margin-left:20px;
+  }
+  .page1_1 {
+    margin-left:20px;
+  }
+  .img5 {
+    width:400px;
+    height:450px;
+  }
+  .sectionImg2_3 {
+    margin-right: 20px;
+  }
+  .sectionImg2_3Title {
+    font-size:69px;
+  }
+  .sectionImg2_3TextTitle {
+    font-size:35px;
+    margin-bottom:20px;
+  }
+  .sectionImg2_3Text {
+    margin-top:55px;
+  }
+  .block2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 294px;
+    margin-right: 200px;
+    color: #fff;
+    position: absolute;
+    background: #3460AE;
+  }
+  .sectionImg1_3Btn3 {
+    margin-top: 0px;
+  }
+  .promotionPartners {
+    margin-left:20px;
+  }
+  .promotionPartnersImg{
+    margin-left:20px;
+    flex-wrap:wrap;
+    width:950px;
+  }
+  .promotionAdvantages {
+    margin-left:20px;
+  } 
+  .promotionAdvantagesTitle {
+    font-size:70px;
+  }
+  .promotionAdvantagesText {
+    margin-left: 40px;
+    margin-top:50px;
+  }
+  .promotionAdvantagesText01 {
+    font-size:39px;
+    margin-bottom:10px;
+  }
+  .sectionObjectMap {
+    margin-left:20px;
+  } 
+  .ObjectMapImg {
+    padding-left: 185px;
+    padding-top: 400px;
+  }
+}
+@media (max-width: 640px) {
+   .img1{
+    height:800px;
+    width:640px;
+   }
+   .page1_1 {
+    margin-left:20px;
+  }
+   .text2 {
+    font-size:70px;
+   }
+   .text4 {
+    font-size:60px;
+    padding-top:0px;
+    padding-bottom:0px;
+  }
+  .PromotionImg {
+    width:600px;
+    height:450px;
+  }
+  .block1 {
+    width:500px;
+    height:265px;
+    margin-top:150px;
+    margin-left:100px;
+  } 
+  .sectionPromotionBody {
+    margin-top:20px;
+    color: white;
+    font-size: 24px;
+  }
+  .sectionPromotionBodyText {
+    margin:0px;
+    margin-top:10px;
+    margin-bottom:20px;
+  }
+  .btnProm {
+    margin-top:15px;
+  }
+  .PromSect {
+    display:flex;
+    height:60px;
+    align-items:center;
+    gap:70px;
+  }
+  .btn {
+    padding:6px;
+  }
+  .text7 {
+    font-size:59px;
+  }
+  .text8 {
+    width:560px;
+    margin-bottom:60px;
+  }
+  .MenuImg1 {
+    width: 290px;
+    height: 370px;
+  }
+  .promotionCardMenu {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    gap: 20px;
+  }
+  .CardMenuText {
+    margin-top:320px;
+  }
+  .InfoText1 {
+    font-size:50px;
+  }
+  .sectionInfoText1 {
+    margin-right:0px;
+    margin-left:0px;
+  }
+  .sectionInfoText2 {
+    margin-right:0px;
+    margin-left:0px;
+  }
+  .InfoText2 {
+    font-size:16px;
+    line-height: 19.2px
+  }
+  .sectionInfo {
+    margin-top:160px;
+  } 
+  .sectionInfoDesc {
+    width:600px;
+    display:flex;
+    gap:15px;
+  }
+  .TextItemImg {
+    display:flex;
+    flex-wrap:wrap;
+    width:550px;
+  }
+  .sectionTextImg {
+    padding-left:150px;
+  }
+  .sectionTextInfoTitle {
+    font-size:60px;
+    padding-bottom:20px;
+  }
+  .sectionTextImg {
+    margin-right:20px;
+  }
+  .TextItemImg {
+    margin-right:70px;
+  }
+  .sectionText {
+    margin-top:250px;
+  }
+  .sectionImg3 {
+    margin-top: 120px;
+  }
+  .sectionObjectMenuText1 {
+    font-size:58px;
+  }
+  .sectionImg1_3 {
+    flex-direction: column;
+  }
+  .img4 {
+    width:600px;
+    height:400px;
+  }
+  .sectionImg1_3Btn2 {
+    margin-left: 150px;
+  }
+  .sectionImg2_3 {
+    flex-direction: column;
+  }
+  .img5 {
+    width:500px;
+    height:350px;
+    margin-left:0px;
+  }
+  .sectionImg2_3Text {
+    margin-top:0px;
+  }
+  .block2 {
+    margin-left:94px;
+    margin-top:270px;
+  }
+  .sectionImg1_3Btn3 {
+    margin-left: 175px;
+    margin-top:55px;
+  }
+  .promotionPartnersTitle {
+    font-size:60px;
+  }
+  .promotionPartnersImg{
+    margin-left:20px;
+    flex-wrap:wrap;
+    width:590px;
+  }
+  .promotionAdvantagesTitle {
+    font-size: 60px;
+  }
+  .promotionAdvantages1 {
+    flex-direction: column;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+  }
+.promotionAdvantagesText {
+  margin-left:0px;
+  width:600px;
+  margin-top:0px;
 }
 .ObjectMapTitle {
-font-size:80px;
-color:#1F3766;
-padding-top:200px;
-padding-left:200px;
+  font-size:60px;
 }
 .ObjectMapDesc {
-width:528px;
-padding-left:200px;
-padding-top:40px;
-line-height:19.2px;
+  margin-top:0px;
 }
 .ObjectMapImg {
-padding-left:604px;
-padding-top:200px;
+  padding-left:0px;
+  padding-top:450px;
+}
+.MapImg {
+  width:600px;
+  height:680px;
+}
+}
+@media (max-width: 320px) {
+  .img1 {
+    width:320px;
+    height:500px;
+  }
+  .text1 {
+    width:280px;
+  }
+  .text2 {
+    font-size:35px;
+    width:280px;
+  }
+  .Img1Text {
+    margin-top:40px;
+  }
+  .text4 {
+    font-size: 30px;
+    line-height: 36.39px;
+    margin-top:60px;
+  }
+  .PromotionImg {
+    width:280px;
+    height:244px;
+  }
+  .block1 {
+    position: absolute;
+    width: 240px;
+    height: 284px;
+    background: #3460AE;
+    margin-left: 40px;
+  margin-top: 120px;
+  }
+  .sectionPromotionBodyTitle {
+    font-size:22px;
+    line-height:30px;
+  }
+  .sectionPromotionBodyText {
+    font-size:20px;
+    line-height:24px;
+    width:170px;
+  }
+  .PromSect {
+    flex-direction: column;
+  }
+  .sectionPromotionBody {
+    margin-left:20px;
+  }
+  .btn {
+    width:200px;
+    padding:4px;
+  }
+  .PromSect {
+    gap:0px;
+    align-items:normal;
+  }
+  .text7 {
+    font-size:40px;
+    margin-top:100px;
+  }
+  .text8 {
+    width:280px;
+    margin-bottom:40px;
+  }
+  .promotionCardMenu {
+    width:280px;
+  }
+  .sectionInfoDesc {
+    flex-direction:column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap:100px;
+    
+  }
+  .sectionInfo {
+    margin-top:100px;
+  }
+  .sectionTextInfoTitle {
+    font-size:30px;
+    padding-bottom:0px;
+  }
+  .sectionTextInfo1 {
+    width:280px;
+  }
+  .TextItemImg {
+    display:flex;
+    flex-wrap:wrap;
+    width:290px;
+    margin-right:0px
+  }
+  .ItemImg {
+    width:130px;
+    height:37px;
+  }
+  .img3 {
+    width:320;
+    height:500;
+  }
+  .sectionObjectMenuText1 {
+    font-size:40px;
+  }
+  .img4 {
+    width:280px;
+    height:200px;
+  }
+  .sectionImg1_3TextTitle {
+    font-size:30px;
+  }
+  .sectionImg1_3Text {
+    margin-left:0px;
+    margin-top:0px;
+  }
+  .sectionImg1_3 {
+    height:670px;
+    width:280px;
+    border: solid 1px #D9D9D9;
+  }
+  .sectionImg1_3Btn2 {
+    width:220px;
+    margin-left:10px;
+  }
+  .sectionImg2_3Title {
+    font-size:40px;
+  }
+  .img5 {
+    width:280px;
+    height:350px;
+  }
+  .block2 {
+    width:280px;
+    height:100px;
+    display:flex;
+    flex-wrap:wrap;
+    margin-left: 0px;
+    margin-top: 220px;
+  }
+  .sectionImg2_3TextDesc1 {
+    width:240px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:0px;
+  }
+  .sectionImg2_3TextTitle {
+    font-size:25px;
+    margin-top:0px;
+  }
+  .sectionImg2_3 {
+    padding-top:0px;
+  }
+  .sectionImg2_3TextDesc {
+    width:280px;
+  }
+  .sectionImg1_3Btn3 {
+    width:220px;
+    margin-left:30px;
+  }
+  .promotionPartnersTitle {
+    font-size: 35px;
+  }
+  .promotionPartnersImg {
+    width:270px;
+  }
+  .sovkombankimg {
+    width:140px;
+  }
+  .promotionAdvantagesTitle {
+    font-size:40px;
+  }
+  .promotionAdvantages1 {
+    flex-direction:column;
+  }
+  .promotionAdvantages01 {
+    font-size:60px;
+    margin-right: 240px;
+  }
+  .promotionAdvantagesText01 {
+    font-size:20px;
+    width:240px;
+    margin-left:150px;
+    
+  }
+  .promotionAdvantagesText02 {
+    display:none;
+  }
+  .promotionAdvantages1 {
+  text-align:left;
+  }
+  .stripe {
+    border:solid 1px #3460AE80;
+    width:280px;
+    margin-left:150px;
+    margin-top:20px;
+  }
+  .ObjectMapTitle {
+    font-size:35px;
+  }
+  .ObjectMapSect {
+    display:flex;
+    flex-direction: column;
+  }
+  .MapImg {
+    width:280px;
+    height:315px;
+  }
 }

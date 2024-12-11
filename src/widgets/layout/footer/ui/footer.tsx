@@ -9,8 +9,8 @@ export default function Footer() {
     return (
         <>
         <div className={styles.sectionEndPage}>
-            <div className={styles.sectionEndPageImg}>
-                <Image src={primend} width="230" height="67" alt="primend"/>
+        <div className={styles.a123}>
+            <Image src={primend} className={styles.sectionEndPageImg} width="230" height="67" alt="primend"/>
             </div>
             <div className={styles.sectionEndPageGroup}>
                 <div className={styles.promotionEndPage1}>

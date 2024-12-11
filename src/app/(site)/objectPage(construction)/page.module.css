@@ -14,7 +14,12 @@
     color:#FFFF;
     font-size:24px;
 }
-
+.ObjectListImg3Text {
+      display: none;  
+}
+.ObjectListImgText {
+    display: none;
+}
 .ComplexItem {
     background:#102349;
 }
@@ -24,7 +29,6 @@ padding-left:200px;
 .ImgList {
     padding-top:100px;    
     display:flex;
-    flex-wrap:wrap;
 }
 .ImgListRight {
     display:flex;
@@ -117,6 +121,7 @@ padding-left:200px;
 }
 .MortLink {
     margin-left:90px;
+    text-decoration: none;
 }
 .MortSection {
     display:flex;
@@ -126,4 +131,251 @@ padding-left:200px;
 }
 .MortItemText {
     margin-bottom:20px;
+}
+@media (max-width: 1000px) {
+    .objectPageImg {
+        width: 1000px;
+        height: 550px;
+        object-fit: cover;
+    }
+    .ImgText {
+        left:20px;
+        top:200px;
+    }
+    .ImgTitle {
+        font-size:70px;
+        margin-bottom:20px;
+    }
+    .ObjectListImg {
+        width: 460px;
+        height: 500px;
+        object-fit: cover;
+    }
+    .ObjectListImg1 {
+        width: 220px;
+        height: 230px;
+        object-fit: cover;
+    }
+    .ObjectListImg2 {
+        width: 220px;
+        height: 230px;
+        object-fit: cover;
+    }
+    .ObjectListImg3 {
+        width: 220px;
+        height: 230px;
+        object-fit: cover;
+    }
+    .ObjectListImg4 {
+        width: 220px;
+        height: 230px;
+        object-fit: cover;
+    }
+    .ComplexItem {
+        padding-left:20px;
+    }
+    .ImgListRight {
+        margin-left:20px;
+        justify-content: flex-start;
+    }
+    .ImgListTitle {
+        font-size: 70px;
+    }
+    .AboutComplexImg {
+        width: 430px;
+        height:430px;
+        object-fit: cover;
+    }
+    .AboutComplexText {
+        width:510px;
+    }
+    .Developer {
+        margin-left:20px;
+        margin-top:100px;
+    } 
+    .DevImg {
+        width: 460px;
+        height: 500px;
+        object-fit: cover;
+    }
+    .Title {
+        font-size: 70px;
+    }
+    .Mortgage {
+        margin-left: 20px;
+    }
+    .MortTitle {
+        font-size: 70px;
+    }
+    .DomRF {
+        width:300px;
+        margin-right:50px;
+    }
+}
+@media (max-width:640px) {
+    .objectPageImg {
+        width: 640px;
+        object-fit: cover;
+    }
+    .ImgTitleText {
+        font-size:24px;
+        width: 390px;
+    }
+    .ImgText {
+        top:250px;
+    }
+    .ImgTitle {
+        font-size: 60px;
+    }
+    .ImgList {
+        flex-direction: column;
+    }
+    .ObjectListImg {
+        width: 600px;
+        height: 450px;
+    }
+    .ObjectListImg1 {
+        width: 280px;
+    }
+    .ObjectListImg2 {
+        width: 280px;
+    }
+    .ObjectListImg3 {
+        width: 280px;
+    }
+    .ObjectListImg4 {
+        width: 280px;
+    }
+    .ImgListRight {
+        width:600px;
+        justify-content: flex-start;
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+    .ImgListTitle {
+        font-size: 60px;
+    }
+    .AboutComplex {
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .AboutComplexImg {
+        width: 600px;
+        height: 430px;
+        padding-bottom: 80px;
+    }
+    .AboutComplexText {
+        padding-bottom:60px;
+    }
+    .Title {
+        font-size: 60px;
+    }
+    .DevSection {
+        display:inline;
+    }
+    .DevImg {
+        width: 600px;
+        margin-top: 30px;
+    }
+    .MortSection {
+        flex-direction: column-reverse;
+    }
+    .MortTitle {
+        font-size: 60px;
+    }
+    .MortItemText {
+        width: 580px;
+        margin: 0px;
+    }
+    .MortLink {
+        margin-left: 95px;
+    }
+    .MortImg {
+        margin-top: 60px;
+    }
+}
+@media (max-width:320px) {
+    .objectPageImg {
+        width: 320px;
+        height: 550px;
+        object-fit: cover;
+    }
+    .ImgTitle {
+        font-size: 40px;
+    }
+    .ImgTitleText {
+        font-size:24px;
+        width: 290px;
+    }
+    .ObjectListImg {
+        width: 280px;
+        height: 450px;
+    }
+    .ObjectListImg1 {
+        width: 280px;
+        height: 230px;
+    }
+    .ObjectListImg2 {
+        width: 280px;
+        height: 230px;
+    }
+    .ObjectListImg3 {
+        width: 280px;
+        height: 230px;
+    }
+    .ObjectListImg4 {
+        width: 280px;
+        height: 230px;
+    }
+    .ObjectListImgText {
+        position:absolute;
+        display: flex;
+    }
+    .ImgListRight {
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 20px;
+    }
+    .ObjectListImg2 {
+        display: none;
+    }
+    .ObjectListImg4 {
+        display: none;
+    }
+    .ImgListTitle {
+        font-size: 30px;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+    .AboutComplexText {
+        width: 280px;
+        padding-bottom: 20px;
+    }
+    .AboutComplexTitle {
+        flex-wrap:wrap;
+    }
+    .AboutComplexImg {
+        width: 280px;
+        height: 430px;
+    }
+    .Title {
+        font-size: 30px;
+    }
+    .DevSectionItem {
+        width: 280px;
+    }
+    .DevLink {
+        flex-direction: column;
+        align-items: start;
+    }
+    .DevImg {
+        width: 280px;
+        height: 300px;
+    }
+    .MortTitle {
+        font-size: 30px;
+    }
+    .MortItemText {
+        width: 260px;
+    }
 }

@@ -35,47 +35,47 @@ export default function Page() {
 
                     <div className={styles.CatalogCard}>
                         <p className={styles.CatalogCardText}>Погрузчики</p>
-                        <Image src={Loader} width='370' height='250' alt='Loader' />
+                        <Image src={Loader} className={styles.CardImg} width='370' height='250' alt='Loader' />
                     </div>
 
                     <div className={styles.CatalogCard}>
                         <p className={styles.CatalogCardText}>Гидромолоты</p>
-                        <Image src={HydraulicHammer} width='370' height='250' alt='HydraulicHammer' />
+                        <Image src={HydraulicHammer} className={styles.CardImg} width='370' height='250' alt='HydraulicHammer' />
                     </div>
 
                     <div className={styles.CatalogCard}>
                         <p className={styles.CatalogCardText}>Экскаваторы</p>
-                        <Image src={Excavators} width='370' height='250' alt='Excavators' />
+                        <Image src={Excavators} className={styles.CardImg} width='370' height='250' alt='Excavators' />
                     </div>
 
                     <div className={styles.CatalogCard}>
                         <p className={styles.CatalogCardText}>Самосвалы</p>
-                        <Image src={DumbTrucks} width='370' height='250' alt='DumbTrucks' />
+                        <Image src={DumbTrucks} className={styles.CardImg} width='370' height='250' alt='DumbTrucks' />
                     </div>
 
                     <div className={styles.CatalogCard}>
                         <p className={styles.CatalogCardText}>Автокраны</p>
-                        <Image src={TruckСranes} width='370' height='250' alt='TruckСranes' />
+                        <Image src={TruckСranes} className={styles.CardImg} width='370' height='250' alt='TruckСranes' />
                     </div>
 
                     <div className={styles.CatalogCard}>
                         <p className={styles.CatalogCardText}>Бульдозеры</p>
-                        <Image src={Bulldozers} width='370' height='250' alt='Bulldozers' />
+                        <Image src={Bulldozers} className={styles.CardImg} width='370' height='250' alt='Bulldozers' />
                     </div>
 
                     <div className={styles.CatalogCard}>
                         <p className={styles.CatalogCardText}>Манипуляторы</p>
-                        <Image src={Manipulators} width='370' height='250' alt='Manipulators' />
+                        <Image src={Manipulators} className={styles.CardImg} width='370' height='250' alt='Manipulators' />
                     </div>
 
                     <div className={styles.CatalogCard}>
                         <p className={styles.CatalogCardText}>Автовышки</p>
-                        <Image src={AerialPlatmorms} width='370' height='250' alt='AerialPlatmorms' />
+                        <Image src={AerialPlatmorms} className={styles.CardImg} width='370' height='250' alt='AerialPlatmorms' />
                     </div>
 
                     <div className={styles.CatalogCard}>
                         <p className={styles.CatalogCardText}>Катки</p>
-                        <Image src={Rollers} width='370' height='250' alt='Rollers' />
+                        <Image src={Rollers} className={styles.CardImg} width='370' height='250' alt='Rollers' />
                     </div>
                 </div>
             </section>

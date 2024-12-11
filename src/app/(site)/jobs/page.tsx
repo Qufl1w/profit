@@ -17,7 +17,6 @@ export default function Page() {
                 <Image src={JobsImg} className={styles.JobsImg} width="965" height="400" alt="JobsImg" />
                 <div className={styles.JobsBlock}>
                     <div className={styles.BlockTitle}>Почему мы</div>
-                    {/* <p className={styles.Stripe}></p> */}
                     <p className={styles.BlockText}>Легко любить свою работу, когда тебя окружают целеустремленные, увлеченные лидеры.
                         Мы приходим на работу каждый день и выкладываемся по полной не потому, что мы должны, а потому, что мы этого хотим.</p>
                 </div>
@@ -32,7 +31,7 @@ export default function Page() {
                     <p className={styles.JobsTextPrice}>от 140 000 руб./месяц</p>
                 </div>
                 <div className={styles.JobsBtn}>
-                    <p><a href="#popup"><button className={styles.JobsBtn1}>Откликнуться</button></a></p>
+                    <p><a href="#popup" className={styles.JobsBtnLink}><button className={styles.JobsBtn1}>Откликнуться</button></a></p>
                     <p><a href="" className={styles.JobsBtn2}>Подробнее</a></p>
                 </div>
 

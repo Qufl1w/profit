@@ -1,0 +1,107 @@
+.Title {
+    margin-top:100px;
+    margin-left:200px;
+    font-size:80px;
+    color: #1F3766;
+}
+.PromTitle {
+    font-size:40px;
+    color:#1F3766;
+    margin-top:30px;
+}
+.PromSect {
+    display: flex;
+    margin-left:200px;
+    margin-top:20px;
+}
+.PromSectDesc {
+    margin-right:170px;
+    margin-top:-20px;
+}
+.PromTitleDesc {
+    font-size:24px;
+    color:#1F3766;
+    margin-top:40px;
+}
+.PromSectText {
+    width:600px;
+    margin-bottom:40px;
+}
+.PromSectLink {
+    text-decoration:none;
+    color: #1F3766;
+}
+.ItemLink {
+    text-decoration:none;
+}
+.PromSectBtn {
+    color:#1F3766 ;
+    border:2px solid #3460AE;
+    padding:20px;
+    width: 200px;
+    text-align:center;
+    margin-top:40px;
+}
+.PromSectBtn:hover {
+    background: #3460AE;
+    color:#FFFFFF ;
+}
+@media (max-width: 1000px) {
+    .Title {
+        margin-left:20px;
+        font-size:70px;
+    }
+    .PromSect {
+        margin-left:20px;
+    }
+    .PromSectDesc {
+        margin-right:40px;
+    }
+    .PromSectText {
+        width:470px;
+    }
+    .ObjectPromImg {
+        height:470px;
+    }
+    .PromSectBtn {
+        margin-top:30px;
+    }
+}
+@media (max-width: 640px) {
+    .Title {
+        font-size: 60px;
+        margin-bottom:40px;
+    }
+    .PromSect {
+        flex-direction: column-reverse;
+    }
+    .ObjectPromImg {
+        width:600px;
+        height:470px;
+        object-fit: cover;
+    }
+    .PromTitle {
+        margin-top: 40px;
+    }
+}
+@media (max-width: 320px) {
+    .Title {
+        font-size: 30px;
+    }
+    .ObjectPromImg {
+        width:280px;
+        height:220px;
+    }
+    .PromSectText {
+        width:280px;
+    }
+    .PromTitle {
+        font-size: 30px;
+    }
+    .PromSectDesc {
+        font-size:20px;
+    }
+    .PromSectLinkText {
+        font-size:17px;
+    }
+}

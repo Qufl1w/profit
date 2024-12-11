@@ -1,151 +1,340 @@
 .LeaseTitle {
-    font-size:80px;
-    color:#1F3766;
-    margin-top:100px;
-    margin-left:200px;
+    font-size: 80px;
+    color: #1F3766;
+    margin-top: 100px;
+    margin-left: 200px;
 }
+
 .LeaseFilter {
-    display:flex;
-    margin-top:100px;
-    gap:30px;
-    margin-left:200px;
+    display: flex;
+    margin-top: 100px;
+    gap: 30px;
+    margin-left: 200px;
+    align-items: center;
 }
+
 span.spncolor {
-    color:#1F3766;
+    color: #1F3766;
 }
+
 .LeaseStatus {
-    border:2px solid#3460AE;
-    width:200px;
-    padding:20px;
-    text-align:center;
+    border: 2px solid#3460AE;
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 }
+
 .LeaseArea {
-    border:2px solid#3460AE;
-    width:280px;
-    padding:20px;
-    text-align:center;
+    border: 2px solid#3460AE;
+    width: 280px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 }
+
 .LeaseCity {
-    border:2px solid#3460AE;
-    width:195px;
-    padding:20px;
-    text-align:center;
+    border: 2px solid#3460AE;
+    width: 195px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 }
+
 .LeaseDistrict {
-    border:2px solid#3460AE;
-    width:220px;
-    padding:20px;
-    text-align:center;
+    border: 2px solid#3460AE;
+    width: 220px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 }
+
 .LeaseConfirmText {
-    width:175px;
-    height:60px;
-    background:#3460AE;
-    text-align:center;
-    color:#fff;
-    margin:21px;
+    width: 175px;
+    height: 60px;
+    background: #3460AE;
+    color: #fff;
+    text-align: center;
+}
+
+.LeaseConfirm {
+    padding: 20px;
 }
 
 .LeaseImg1Sect {
-    margin-right:80px;
+    margin-right: 80px;
 }
+
 .LeaseImg1Text1 {
-    display:flex;
+    display: flex;
 }
+
 .LeaseImg1Text2 {
-    display:flex;
-    gap:55px;
+    display: flex;
+    gap: 55px;
 }
+
 .LeaseImg {
-    margin-top:80px;
-    margin-left:200px;
+    margin-top: 80px;
+    margin-left: 200px;
 }
-/* .LeaseImg1 {
-    justify-content:space-between;
-    text-align:center;
-    width:560px;
-    align-items: center;
-} */
+
 .LeaseImg1Title1 {
-    font-size:40px;
-    color:#272727;
-    margin-top:20px;
+    font-size: 40px;
+    color: #272727;
+    margin-top: 20px;
 }
+
 .LeaseImg1Title2 {
-    margin-top:35px;
+    margin-top: 35px;
     text-align: right;
 }
+
 .LeaseImg1Circle {
     width: 20px;
     height: 20px;
     background-color: #57CF72;
     border-radius: 50%;
-    margin-top:35px;
-    margin-right:10px;
-    margin-left:84px;
+    margin-top: 35px;
+    margin-right: 10px;
+    margin-left: 84px;
 }
+
 .LeaseImg {
-    display:flex;
+    display: flex;
+}
+.LeaseImgCircle {
+    display: flex;
 }
 .LeaseImgBtn {
-    text-align:center;
-    margin-top:30px;
-    border:2px solid #3460AE;
-    padding-top:21px;
-    padding-bottom:20px;
-    color:#1F3766;
+    text-align: center;
+    margin-top: 30px;
+    border: 2px solid #3460AE;
+    padding-top: 21px;
+    padding-bottom: 20px;
+    color: #1F3766;
+}
+.LeaseImgBtn:hover {
+    background: #3460AE;
+    color: #FFFFFF;
 }
 .LeaseImgBtnHref {
-    text-decoration:none;
+    text-decoration: none;
 }
 
 .LeaseImg2Title1 {
-    font-size:40px;
-    color:#272727;
-    margin-top:20px;
+    font-size: 40px;
+    color: #272727;
+    margin-top: 20px;
 }
+
 .LeaseImg2Circle {
     width: 20px;
     height: 20px;
     background-color: #57CF72;
     border-radius: 50%;
-    margin-top:35px;
-    margin-right:10px;
-    margin-left:30px;
+    margin-top: 35px;
+    margin-right: 10px;
+    margin-left: 30px;
 }
+
 .LeaseImg4Title2 {
-    margin-top:35px;
+    margin-top: 35px;
     text-align: right;
 }
+
 .LeaseImg3Circle {
     width: 20px;
     height: 20px;
     background-color: #C54942;
     border-radius: 50%;
-    margin-top:35px;
-    margin-right:10px;
-    margin-left:30px;
+    margin-top: 35px;
+    margin-right: 10px;
+    margin-left: 30px;
 }
+
 .LeaseImg3 {
-    opacity:50%;
+    opacity: 50%;
 }
+
 .LeaseImg3Title1 {
-    font-size:40px;
-    color:#272727;
-    margin-top:20px;
-    margin-right:78px;
+    font-size: 40px;
+    color: #272727;
+    margin-top: 20px;
+    margin-right: 78px;
 }
+
 .LeaseImgBtn3 {
-    text-align:center;
-    margin-top:30px;
-    border:2px solid #D9D9D9;
-    padding-top:21px;
-    padding-bottom:20px;
-    color:#9F9F9F;
+    text-align: center;
+    margin-top: 30px;
+    border: 2px solid #D9D9D9;
+    padding-top: 21px;
+    padding-bottom: 20px;
+    color: #9F9F9F;
 }
+
 .LeaseImg4Title1 {
-    font-size:40px;
-    color:#272727;
-    margin-top:20px;
-    margin-right:24px;
+    font-size: 40px;
+    color: #272727;
+    margin-top: 20px;
+    margin-right: 24px;
+}
+
+@media (max-width: 1000px) {
+    .LeaseTitle {
+        font-size: 70px;
+        margin-left: 20px;
+    }
+
+    .LeaseFilter {
+        display: flex;
+        flex-wrap: wrap;
+        width: 1000px;
+        margin-left: 20px;
+        margin-top: 60px;
+        gap: 0px;
+    }
+
+    .LeaseStatus {
+        margin-right: 30px;
+    }
+
+    .LeaseArea {
+        margin-right: 30px;
+    }
+
+    .LeaseCity {
+        margin-right: 30px;
+    }
+
+    .LeaseImg {
+        margin-top: 60px;
+        margin-left: 200px;
+        flex-direction: column;
+    }
+    .LeaseImgBtn {
+        width:690px;
+        margin-bottom:50px;
+    }
+    .LeaseImgBtn3 {
+        width:690px;
+        margin-bottom:50px;
+    }
+    .LeaseImg2 {
+        width: 690px;
+        height: 350px;
+        object-fit: cover;
+    }
+    .LeaseImg3 {
+        width: 690px;
+        height: 350px;
+        object-fit: cover;
+    }
+    .LeaseImg1Text1 {
+        display: flex;
+        justify-content: space-between;
+        width: 690px;
+    }
+    .LeaseImgCircle {
+        display: flex;
+    }
+}
+@media (max-width: 640px) {
+    .LeaseTitle {
+        font-size: 60px;
+    }
+    .LeaseFilter {
+        width: 700px;
+    }
+    .LeaseConfirmText {
+        margin:0px;
+        margin-top:10px;
+    }
+    .LeaseImg {
+        margin-left:20px;
+    }
+    .LeaseImg2 {
+        width: 600px;
+    }
+    .LeaseImg3 {
+        width: 600px;
+    }
+    .LeaseImgBtn {
+        width:600px;
+    }
+    .LeaseImgBtn3 {
+        width:600px;
+    }
+    .LeaseImg1Text1 {
+        width: 600px;
+    }
+}
+@media (max-width: 320px) {
+    .LeaseTitle {
+        font-size: 40px;
+    }
+    .LeaseFilter {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .LeaseImg2 {
+        width: 280px;
+        height:250px;
+    }
+    .LeaseImg3 {
+        width: 280px;
+        height:250px;
+    }
+    .LeaseImg1Title1 {
+        font-size: 25px;
+    }
+    .LeaseImg2Title1{
+        font-size: 25px;
+    }
+    .LeaseImg3Title1{
+        font-size: 25px;
+    }
+    .LeaseImg4Title1{
+        font-size: 25px;
+    }
+    .LeaseImgBtn {
+        width:280px;
+        margin-top: 10px;
+    }
+    .LeaseImgBtn3 {
+        width:280px;
+        margin-top: 10px;
+    }
+    .LeaseImg1Text1 {
+        display: flex;
+        justify-content:left;
+       flex-wrap:wrap;
+        width: 310px;
+    }
+    .LeaseImg1Title2 {
+        margin-top: 15px;
+    }
+    .LeaseImg1Circle {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    .LeaseImg2Circle {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    .LeaseImg3Circle {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    .LeaseImg1Text2 {
+        flex-wrap: wrap;
+        width: 270px;
+        gap: 0px;
+    }
+    .LeaseImgText {
+        margin-top: 0px;
+    }
+    .LeaseArea {
+        width: 250px;
+    }
 }

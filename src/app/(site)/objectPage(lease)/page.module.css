@@ -1,178 +1,747 @@
 .ObjectTitle {
-    display:flex;
-    margin-top:100px;
-    margin-left:200px;
-    gap:360px;
-    align-items:center;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 200px;
+    gap: 360px;
+    align-items: center;
 }
+
 .Title {
-    color:#1F3766;
-    font-size:80px;
-    margin:0px;
+    color: #1F3766;
+    font-size: 80px;
+    margin: 0px;
 }
+
 .Circle {
     width: 25px;
     height: 25px;
     background-color: #57CF72;
     border-radius: 50%;
-    margin-right:15px;
-    margin-top:25px;
+    margin-right: 15px;
+    margin-top: 25px;
+}
+.IconText1 {
+    display: none;
 }
 .CircleText {
-    font-size:24px;
+    font-size: 24px;
 }
+
 .TitleText {
-    display:flex;
-    text-align:center;
-    justify-content:center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
+
 .IconsDesc {
-    display:flex;
-    gap:40px;
+    display: flex;
+    gap: 40px;
 }
+
 .Icon {
-    display:flex;
-    gap:6px;
-    align-items:center;
+    display: flex;
+    gap: 6px;
+    align-items: center;
 }
+
 .IconsDesc {
-    margin-left:200px;
-    margin-top:40px;
+    margin-left: 200px;
+    margin-top: 40px;
 }
+
 .OfficeSect {
-    display:flex;
-    margin-left:200px;
-    margin-top:60px;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 60px;
 }
+
 .OfficeDesc {
-    width:600px;
-    margin-right:230px;
+    width: 600px;
+    margin-right: 230px;
 }
+
 .OfficePrice {
-    margin-top:-30px;
+    margin-top: -30px;
 }
+
 .PriceTitle {
-    font-size:40px;
-    color:#1F3766;
+    font-size: 40px;
+    color: #1F3766;
 }
+
 .OfficeBtn {
-    width:335px;
-    text-align:center;
-    margin-top:30px;
-    border:2px solid #3460AE;
-    padding-top:21px;
-    padding-bottom:20px;
-    color:#1F3766;
-    margin-left:45px;
+    width: 335px;
+    text-align: center;
+    margin-top: 30px;
+    border: 2px solid #3460AE;
+    padding-top: 21px;
+    padding-bottom: 20px;
+    color: #1F3766;
+    margin-left: 45px;
+}
+.OfficeBtn:hover {
+    color: #FFFFFF;
+    background:#3460AE;
 }
 .OfficeImg {
-    display:flex;
-    margin-left:300px;
-    margin-top:200px;
+    display: flex;
+    margin-left: 300px;
+    margin-top: 200px;
 }
 
 .popup_title {
-    font-size:80px;
-    color:#214A90;
-    margin-bottom:30px;
-    margin-top:100px;
-    margin-left:40px;
+    font-size: 80px;
+    color: #214A90;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    margin-left: 40px;
 }
+
 .popup {
-    position:fixed;
-    width:100%;
-    height:100%;
-    background-color:rgba(0, 0, 0,0.8);
-    top:0;
-    left:0;
-    padding:40px 20px;
-    opacity:0;
-    visibility:hidden;
-    overflow-y:auto;
-    overflow-x:hidden;
-    transition:all 0.4s ease 0s;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    padding: 40px 20px;
+    opacity: 0;
+    visibility: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: all 0.4s ease 0s;
 }
+
 .popup:target {
-    opacity:1;
-    visibility:visible;
+    opacity: 1;
+    visibility: visible;
 }
+
 .popup_body {
-    min-height:100%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .popup_content {
-    background-color:#FFFF;
-    color:#000;
-    max-width:1200px;
-    position:relative;
-    width:1200px;
-    height:830px;
-    transition:all 0.4s ease 0s;
-    opacity:0;
-    transform:translate(0px, -100%);
-    /* height:840px; */
+    background-color: #FFFF;
+    color: #000;
+    max-width: 1200px;
+    position: relative;
+    width: 1200px;
+    height: 830px;
+    transition: all 0.4s ease 0s;
+    opacity: 0;
+    transform: translate(0px, -100%);
 }
+
 .popup:target .popup_content {
-    transform:translate(0px, 0px);
-    opacity:1;
+    transform: translate(0px, 0px);
+    opacity: 1;
 }
+
 .popup_close {
-    position:absolute;
-    right:40px;
-    top:40px;
+    position: absolute;
+    right: 40px;
+    top: 40px;
 }
+
 .popup_contentItem {
-    margin-left:40px;
+    margin-left: 40px;
 }
+
 .popup_area {
-    position:absolute;
-    width:100%;
-    height:100%;
-    top:0;
-    left:0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
+
 .popup_form {
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-    width:560px;
-    margin-bottom:20px;
-    height:60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 560px;
+    margin-bottom: 20px;
+    height: 60px;
 }
+
 .popup_form input {
-    border:1px solid #3460AE;
-    padding:20px;
+    border: 1px solid #3460AE;
+    padding: 20px;
 }
+
 .popup_submit {
-    background:#3460AE;
-    width:560px;
-    height:60px;
-    color:#FFFF;
-    margin-top:20px;
+    background: #3460AE;
+    width: 560px;
+    height: 60px;
+    color: #FFFF;
+    margin-top: 20px;
+}
+.popup_submit:hover {
+    background: #214A90;
 }
 .popup_textItem {
-    margin-bottom:40px;
+    margin-bottom: 40px;
 }
+
 .popup_textEnd {
-    font-size:12px;
-    color:#707070;
-    margin-bottom:15px;
-    margin-top:20px;
+    font-size: 12px;
+    color: #707070;
+    margin-bottom: 15px;
+    margin-top: 20px;
 }
+
 .popup_textEnd a {
-    color:#707070;
-    border-bottom:1px solid;
+    color: #707070;
+    border-bottom: 1px solid;
 }
+
 .href {
-    text-decoration:none;
+    text-decoration: none;
 }
+
 .popup_contentItem {
-    display:flex;    
+    display: flex;
 }
+
 .popup_text {
-    margin-right:140px;
-    margin-top:-19px;
+    margin-right: 140px;
+    margin-top: -19px;
 }
+@media (max-width: 1000px) {
+    .ObjectTitle {
+        justify-content: space-between;
+        margin-left: 20px;
+        gap: 0px;
+    }
+    .Title {
+        font-size: 60px;
+    }
+    .TitleText {
+        margin-right: 20px;
+    }
+    .IconsDesc {
+        margin-left: 20px;
+    }
+    .OfficeSect {
+        margin-left: 20px;
+    }
+    .OfficeDesc {
+        margin-right: 100px;
+        width:470px;
+    }
+    .OfficeBtn {
+        margin-top: -20px;
+    }
+    .OfficeImg {
+        margin-left: 100px;
+        width: 800px;
+        height: 480px;
+        object-fit: cover;
+    }
+    .popup_title {
+        font-size: 60px;
+        color: #214A90;
+        margin-bottom: 30px;
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+    .popup:target {
+        opacity: 1;
+        visibility: visible;
+    }
+    .popup_body {
+        min-height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .popup_content {
+        background-color: #FFFF;
+        color: #000;
+        max-width: 960px;
+        position: relative;
+        width:960px;
+        height: 605px;
+        transition: all 0.4s ease 0s;
+        opacity: 0;
+        transform: translate(0px, -100%);
+        /* height:840px; */
+    }
+    .popup:target .popup_content {
+        transform: translate(0px, 0px);
+        opacity: 1;
+    }
+    .popup_close {
+        position: absolute;
+        right: 40px;
+        top: 40px;
+    }
+    .popup_contentItem {
+        margin-left: 30px;
+    }
+    .popup_area {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    .popup_form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 480px;
+        margin-bottom: 20px;
+        height: 60px;
+    } 
+    .popup_form input {
+        border: 1px solid #3460AE;
+        padding: 20px;
+    }
+    .popup_submit {
+        background: #3460AE;
+        width: 490px;
+        height: 60px;
+        color: #FFFF;
+        margin-top: 20px;
+    }
+    .popup_submit:hover {
+        background: #214A90;
+    }
+    .popup_textItem {
+        margin-bottom: 40px;
+    }
+    .popup_textEnd {
+        font-size: 12px;
+        color: #707070;
+        margin-bottom: 15px;
+        margin-top: 20px;
+        width: 470px;
+    }
+    .popup_textEnd a {
+        color: #707070;
+        border-bottom: 1px solid;
+    }
+    .href {
+        text-decoration: none;
+    }
+    .popup_contentItem {
+        display: flex;
+    }
+    .popup_text {
+        margin-right: 0px;
+        margin-top: -19px;
+    }
+    .JobsPopupImg {
+        width: 380px;
+        height: 255px;
+        object-fit: cover;
+        margin-top: 55px;
+        margin-left: -120px;
+    }
+    .popup_textItem {
+        width: 645px;
+    }
+}
+@media (max-width: 640px) {
+    .ObjectTitle {
+        display:inline; 
+        margin: 0px;
+    }
+    .Title {
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    .TitleText {
+        justify-content: start;
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+    .IconsDesc {
+        flex-wrap: wrap;
+        width: 480px;
+        gap: 0px;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    .Icon {
+        margin-right: 20px;
+    }
+    .OfficeSect {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .OfficeDesc {
+        width: 480px;
+    }
+    .OfficeBtn {
+        margin-left: 0px;
+    }
+    .OfficePrice {
+        margin-top: -10px;
+    }
+    .OfficeImg {
+        width: 550px;
+        height: 480px;
+        margin-left: 20px;
+        margin-top: 120px;
+    }
+    .popup_title {
+        font-size: 80px;
+        color: #214A90;
+        margin-bottom: 30px;
+        margin-top: 100px;
+        margin-left: 40px;
+    }
+    
+    .popup {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        top: 0;
+        left: 0;
+        padding: 40px 20px;
+        opacity: 0;
+        visibility: hidden;
+        overflow-y: auto;
+        overflow-x: hidden;
+        transition: all 0.4s ease 0s;
+    }
+    
+    .popup:target {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .popup_body {
+        min-height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .popup_content {
+        background-color: #FFFF;
+        color: #000;
+        max-width: 1200px;
+        position: relative;
+        width: 1200px;
+        height: 830px;
+        transition: all 0.4s ease 0s;
+        opacity: 0;
+        transform: translate(0px, -100%);
+        /* height:840px; */
+    }
+    
+    .popup:target .popup_content {
+        transform: translate(0px, 0px);
+        opacity: 1;
+    }
+    
+    .popup_close {
+        position: absolute;
+        right: 40px;
+        top: 40px;
+    }
+    
+    .popup_contentItem {
+        margin-left: 40px;
+    }
+    
+    .popup_area {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    
+    .popup_form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 560px;
+        margin-bottom: 20px;
+        height: 60px;
+    }
+    
+    .popup_form input {
+        border: 1px solid #3460AE;
+        padding: 20px;
+    }
+    
+    .popup_submit {
+        background: #3460AE;
+        width: 570px;
+        height: 60px;
+        color: #FFFF;
+        margin-top: 20px;
+    }
+    .popup_submit:hover {
+        background: #214A90;
+    }
+    .popup_textItem {
+        margin-bottom: 40px;
+    }
+    
+    .popup_textEnd {
+        font-size: 12px;
+        color: #707070;
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+    
+    .popup_textEnd a {
+        color: #707070;
+        border-bottom: 1px solid;
+    }
+    
+    .href {
+        text-decoration: none;
+    }
+    
+    .popup_contentItem {
+        display: flex;
+    }
+    
+    .popup_text {
+        margin-right: 140px;
+        margin-top: -19px;
+    }
+    @media (max-width: 1000px) {
+        .ObjectTitle {
+            justify-content: space-between;
+            margin-left: 20px;
+            gap: 0px;
+        }
+        .Title {
+            font-size: 60px;
+        }
+        .TitleText {
+            margin-right: 20px;
+        }
+        .IconsDesc {
+            margin-left: 20px;
+        }
+        .OfficeSect {
+            margin-left: 20px;
+        }
+        .OfficeDesc {
+            margin-right: 100px;
+            width:470px;
+        }
+        .OfficeBtn {
+            margin-top: -20px;
+        }
+        .OfficeImg {
+            margin-left: 100px;
+            width: 800px;
+            height: 480px;
+            object-fit: cover;
+        }
+        .popup_title {
+            font-size: 60px;
+            color: #214A90;
+            margin-bottom: 30px;
+            margin-top: 50px;
+            margin-left: 30px;
+        }
+        .popup:target {
+            opacity: 1;
+            visibility: visible;
+        }
+        .popup_body {
+            min-height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        .popup_content {
+            background-color: #FFFF;
+            color: #000;
+            max-width: 600px;
+            position: relative;
+            width:600px;
+            height: 600px;
+            transition: all 0.4s ease 0s;
+            opacity: 0;
+            transform: translate(0px, -100%);
+            /* height:840px; */
+        }
+        .popup:target .popup_content {
+            transform: translate(0px, 0px);
+            opacity: 1;
+        }
+        .popup_close {
+            position: absolute;
+            right: 40px;
+            top: 40px;
+        }
+        .popup_contentItem {
+            margin-left: 30px;
+        }
+        .popup_area {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+        }
+        .popup_form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 480px;
+            margin-bottom: 20px;
+            height: 60px;
+        } 
+        .popup_form input {
+            border: 1px solid #3460AE;
+            padding: 20px;
+        }
+        .popup_submit {
+            background: #3460AE;
+            width: 490px;
+            height: 60px;
+            color: #FFFF;
+            margin-top: 20px;
+        }
+        .popup_textItem {
+            margin-bottom: 40px;
+        }
+        .popup_textEnd {
+            font-size: 12px;
+            color: #707070;
+            margin-bottom: 15px;
+            margin-top: 20px;
+            width: 470px;
+        }
+        .popup_textEnd a {
+            color: #707070;
+            border-bottom: 1px solid;
+        }
+        .href {
+            text-decoration: none;
+        }
+        .popup_contentItem {
+            display: flex;
+        }
+        .popup_text {
+            margin-right: 0px;
+            margin-top: -19px;
+        }
+        .JobsPopupImg {
+            display: none;
+        }
+        .popup_textItem {
+            width: 480px;
+        }
+        }
+}
+@media (max-width: 320px) {
+    .Title {
+        font-size: 30px;
+    }
+    .CircleText {
+        font-size: 20px;
+    }
+    .TitleText {
+        text-align: center;
+        align-items: center;
+    }
+    .Circle {
+        margin-top: 0px;
+    }
+    .IconsDesc {
+        width: 280px;
+    }
+    .Icon {
+        height: 50px;
+        font-size: 15px;
+    }
+    .IconText {
+        display: none;
+    }
+    .IconText1 {
+        display: inline;
+    }
+    .OfficeDesc {
+        width: 280px;
+    }
+    .PriceTitle {
+        font-size: 25px;
+    }
+    .OfficeBtn {
+        width: 280px;
+        margin-top: -5px;
+    }
+    .OfficeImg {
+        width: 260px;
+        height: 400px;
+        margin-left: 20px;
+        margin-top: 100px;
+    }
+    .popup_form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 480px;
+        margin-bottom: 20px;
+        height: 60px;
+    } 
+    .popup_content {
+        background-color: #FFFF;
+        color: #000;
+        max-width: 1200px;
+        position: relative;
+        width: 320px;
+        height: 550px;
+        transition: all 0.4s ease 0s;
+        opacity: 0;
+        transform: translate(0px, -100%);
+    }
+    .popup_title {
+        width: 260px;
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .Close {
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+    }
+    .popup_close {
+        top: 30px;
+    }
+    .popup_textItem {
+        width: 260px;
+    }
+    .popup {
+        padding: 0px;
+    }
+    .popup_form {
+        width: 260px;
+    }
+    .popup_submit {
+        width: 270px;
+        margin-top: 0px;
+    }
+    .popup_contentItem {
+        margin-left:20px;
+    }
+    .popup_textEnd {
+        width: 260px;
+    }
+}
+
+    

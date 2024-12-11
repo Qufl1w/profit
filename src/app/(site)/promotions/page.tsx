@@ -5,6 +5,7 @@ import PromotionImg2 from '@/assets/images/PromotionImg2.svg'
 import PromotionImg3 from '@/assets/images/PromotionImg3.svg'
 import PromotionImg4 from '@/assets/images/PromotionImg4.svg'
 import PromotionImg5 from '@/assets/images/PromotionImg5.svg'
+import Link from 'next/link';
 
 
 
@@ -26,7 +27,7 @@ export default function Page() {
                                 <div className={styles.ImgBlockText}>Квартиры в готовых домах</div>
                                 <p>в ЖК Ягоды</p>
                             </div>
-                            <Image src={PromotionImg1} width='580' height='500' alt='PromotionImg' />
+                            <Image src={PromotionImg1} className={styles.PromotionImg1} width='580' height='500' alt='PromotionImg' />
                         </div>
 
                         <div className={styles.MenuItem2}>
@@ -37,7 +38,7 @@ export default function Page() {
                                 <div className={styles.ImgBlockText}>Рассрочка 0%</div>
                                 <p>в ЖК Премиум</p>
                             </div>
-                            <Image src={PromotionImg2} width='580' height='230' alt='PromotionImg' />
+                            <Link href="/objectPage(promotion)"><Image src={PromotionImg2} className={styles.PromotionImg2} width='580' height='230' alt='PromotionImg' /></Link>
                         </div>
 
                         <div className={styles.MenuImg}>
@@ -46,7 +47,7 @@ export default function Page() {
                                 <div className={styles.ImgBlockText}>Ипотека от 2%</div>
                                 <p>в ЖК Триумф</p>
                             </div>
-                            <Image src={PromotionImg3} width='580' height='230' alt='PromotionImg' />
+                            <Image src={PromotionImg3} className={styles.PromotionImg3} width='580' height='230' alt='PromotionImg' />
                         </div>
                         </div>
                     </div>
@@ -57,7 +58,7 @@ export default function Page() {
                                 <div className={styles.ImgBlockText}>Ипотека от 3%</div>
                                 <p>в ЖК Ягоды</p>
                             </div>
-                            <Image src={PromotionImg4} width='580' height='300' alt='PromotionImg' />
+                            <Image src={PromotionImg4} className={styles.PromotionImg4} width='580' height='300' alt='PromotionImg' />
                         </div>
 
                         <div className={styles.MenuImg}>
@@ -66,9 +67,8 @@ export default function Page() {
                                 <div className={styles.ImgBlockText}>Ипотека от 3%</div>
                                 <p>в ЖК Ягоды</p>
                             </div>
-                            <Image src={PromotionImg5} width='580' height='300' alt='PromotionImg' />
+                            <Image src={PromotionImg5} className={styles.PromotionImg5} width='580' height='300' alt='PromotionImg' />
                         </div>
-                        
                         </div>
                 </div>
                 

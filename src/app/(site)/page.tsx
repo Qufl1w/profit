@@ -28,26 +28,29 @@ export default function Home() {
   return (
     <>
       <section className={styles.page1}>
-        <div className={styles.text1}>Группа компаний ПРИМОРСТРОЙ - многопрофильная строительная компания. Но то, кто мы есть, - это гораздо больше, чем то, что мы делаем.
-          Благодаря стратегическим и креативным проектным решениям, мы привносим ценность в созданную среду.</div>
+        <div className={styles.Img1Text}>
+        <p className={styles.text1}>Группа компаний ПРИМОРСТРОЙ - многопрофильная строительная компания. Но то, кто мы есть, - это гораздо больше, чем то, что мы делаем.
+          Благодаря стратегическим и креативным проектным решениям, мы привносим ценность в созданную среду.</p>
         <div className={styles.text2}>Эффективное управление строительством </div>
-        <div className={styles.text3}>Связаться с нами</div>
+        <a href="" className={styles.text3}>Связаться с нами</a>
+        </div>
         <div className={styles.img1}>
-          <Image src={img1} style={{ objectFit: 'cover', width: '100%' }} alt="Img1" />
+          <Image src={img1} className={styles.img1} style={{ objectFit: 'cover', width: '100%' }} alt="Img1" />
         </div>
       </section>
       <section className={styles.page1_1}>
-        <div className="container">
           <h2 className={styles.text4}>Акции и спецпредложения</h2>
           <div className={styles.block1}>
             <div className={styles.sectionPromotionBody}>
-              <h3 className={styles.sectionPromotionBodyTitle}>Квартиры в готовых домах</h3>
-              <span className={styles.sectionPromotionBodyText}>Ипотека от 2,5%</span>
+              <p className={styles.sectionPromotionBodyTitle}>Квартиры в готовых домах</p>
+              <p className={styles.sectionPromotionBodyText}>Ипотека от 2,5%</p>
+              <div className={styles.PromSect}>
               <a href="/promotions" className={styles.btn}>Подробнее об условиях</a>
+              <p className={styles.btnProm}><a href="/promotions" className={styles.btnProm}>Все акции</a></p>
+              </div>
             </div>
           </div>
-          <Image src={img2} width="865" height="550" alt="Img2" />
-        </div>
+          <Image src={img2} className={styles.PromotionImg} width="865" height="550" alt="Img2" />
       </section>
       <section className={styles.page1_3}>
         <div className={styles.text7}>Сферы деятельности</div>
@@ -57,54 +60,63 @@ export default function Home() {
           <div className={styles.promotionCardMenu}>
           <div className={styles.MenuImg1}>
           <Link href='/construction' className={styles.CardMenuText}>Строительство</Link>
-            <Image src={picture1_6} width="370" height="450" alt="picture1_6" />
+            <Image src={picture1_6} className={styles.CardMenuImg} width="370" height="450" alt="picture1_6" />
             </div>
 
             <div className={styles.MenuImg1}>
             <Link href='/lease' className={styles.CardMenuText}>Аренда</Link>
-            <Image src={picture2_6} width="370" height="450" alt="picture2_6" />
+            <Image src={picture2_6} className={styles.CardMenuImg} width="370" height="450" alt="picture2_6" />
             </div>
 
             <div className={styles.MenuImg1}>
             <Link href='/turism' className={styles.CardMenuText}>Туризм</Link>
-            <Image src={picture3_6} width="370" height="450" alt="picture3_6" />
+            <Image src={picture3_6} className={styles.CardMenuImg} width="370" height="450" alt="picture3_6" />
             </div>
 
             <div className={styles.MenuImg1}>
             <Link href='/special' className={styles.CardMenuText}>Спецтехника</Link>
-            <Image src={picture4_6} width="370" height="450" alt="picture4_6" />
+            <Image src={picture4_6} className={styles.CardMenuImg} width="370" height="450" alt="picture4_6" />
             </div>
 
             <div className={styles.MenuImg1}>
             <Link href='/production' className={styles.CardMenuText}>Производство</Link>
-            <Image src={picture5_6} width="370" height="450" alt="picture5_6" />
+            <Image src={picture5_6} className={styles.CardMenuImg} width="370" height="450" alt="picture5_6" />
             </div>
 
             <div className={styles.MenuImg1}>
             <Link href='/logistics' className={styles.CardMenuText}>Логистика</Link>
-            <Image src={picture6_6} width="370" height="450" alt="picture6_6" />
+            <Image src={picture6_6} className={styles.CardMenuImg} width="370" height="450" alt="picture6_6" />
             </div>
 
         </div>
       </section>
       <section className={styles.sectionInfo}>
-        <div className={styles.sectionInfoText1}>53</div>
-        <div className={styles.sectionInfoText2}>84,720</div>
-        <div className={styles.sectionInfoText3}>17</div>
+        <div className={styles.sectionInfoDesc}>
+        <div className={styles.sectionInfoText1}>
+          <div className={styles.InfoText1}>53</div>
+          <p className={styles.InfoText2}>года на рынке строительства Приморского края</p>
+        </div>
+
+        <div className={styles.sectionInfoText2}>
+          <div className={styles.InfoText1}>84,720</div>
+          <p className={styles.InfoText2}>квадратных метров освоенных площадей</p>
+        </div>
+
+        <div className={styles.sectionInfoText3}>
+          <div className={styles.InfoText1}>17</div>
+          <p className={styles.InfoText2}>крупных реализованных проектов жилых комплексов</p>
+        </div>
+        </div>
       </section>
-      <section className={styles.sectionInfo2}>
-        <div className={styles.sectionInfoText1_1}>года на рынке строительства Приморского края</div>
-        <div className={styles.sectionInfoText2_2}>квадратных метров освоенных площадей</div>
-        <div className={styles.sectionInfoText3_3}>крупных реализованных проектов жилых комплексов</div>
-      </section>
+
       <section className={styles.sectionTextInfo}>
         <div className={styles.sectionTextImg}>
           <div className={styles.TextItemImg}>
-            <Image src={logo_red} width="209" height="61" alt="logo_red" />
-            <Image src={logo_red} width="209" height="61" alt="logo_red" />
-            <Image src={logo_red} width="209" height="61" alt="logo_red" />
-            <Image src={logo_red} width="209" height="61" alt="logo_red" />
-            <Image src={logo_red} width="209" height="61" alt="logo_red" />
+            <Image src={logo_red} className={styles.ItemImg} width="209" height="61" alt="logo_red" />
+            <Image src={logo_red} className={styles.ItemImg} width="209" height="61" alt="logo_red" />
+            <Image src={logo_red} className={styles.ItemImg} width="209" height="61" alt="logo_red" />
+            <Image src={logo_red} className={styles.ItemImg} width="209" height="61" alt="logo_red" />
+            <Image src={logo_red} className={styles.ItemImg} width="209" height="61" alt="logo_red" />
           </div>
           <div className={styles.sectionText}>
             <div className={styles.sectionTextInfoTitle}>Компании группы</div>
@@ -117,16 +129,16 @@ export default function Home() {
         </div>
       </section>
       <section className={styles.sectionImg3}>
-        <Image src={img3} style={{ height: '100%', width: '100%' }} alt="img3" />
+        <Image src={img3} className={styles.img3} style={{ height: '100%', width: '100%' }} alt="img3" />
       </section>
       <section className={styles.sectionObjectMenu}>
         <div className={styles.sectionObjectMenuText1}>Строящиеся объекты</div>
         <div className={styles.sectionImg1_3}>
-          <Image src={img4} width="600" height="400" alt="img4_1" />
+          <Image src={img4} className={styles.img4} width="600" height="400" alt="img4_1" />
           <div className={styles.sectionImg1_3Text}>
             <p className={styles.sectionImg1_3TextTitle}>Жилой комплекс Ягоды</p>
             <p>г. Уссурийск, ул. Механизаторов, 22А</p>
-            <p>Премиальный клубный дом в закрытом квартале в центре города. Это элегантная архитектура, ультрасовременные инженерные решения и клубный малоквартирный формат.</p>
+            <p className={styles.Img1_3Desc}>Премиальный клубный дом в закрытом квартале в центре города. Это элегантная архитектура, ультрасовременные инженерные решения и клубный малоквартирный формат.</p>
             <div className={styles.sectionImg1_3TextDesc}>
               <p>1200 кв.м.</p>
               <p>26 этажей</p>
@@ -137,11 +149,11 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.sectionImg1_3}>
-          <Image src={img4} width="600" height="400" alt="img4_1" />
+          <Image src={img4} className={styles.img4} width="600" height="400" alt="img4_1" />
           <div className={styles.sectionImg1_3Text}>
             <p className={styles.sectionImg1_3TextTitle}>Жилой комплекс Ягоды</p>
             <p>г. Уссурийск, ул. Механизаторов, 22А</p>
-            <p>Премиальный клубный дом в закрытом квартале в центре города. Это элегантная архитектура, ультрасовременные инженерные решения и клубный малоквартирный формат.</p>
+            <p className={styles.Img1_3Desc}>Премиальный клубный дом в закрытом квартале в центре города. Это элегантная архитектура, ультрасовременные инженерные решения и клубный малоквартирный формат.</p>
             <div className={styles.sectionImg1_3TextDesc}>
               <p>1200 кв.м.</p>
               <p>26 этажей</p>
@@ -152,11 +164,11 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.sectionImg1_3}>
-          <Image src={img4} width="600" height="400" alt="img4_1" />
+          <Image src={img4} className={styles.img4} width="600" height="400" alt="img4_1" />
           <div className={styles.sectionImg1_3Text}>
             <p className={styles.sectionImg1_3TextTitle}>Жилой комплекс Ягоды</p>
             <p>г. Уссурийск, ул. Механизаторов, 22А</p>
-            <p>Премиальный клубный дом в закрытом квартале в центре города. Это элегантная архитектура, ультрасовременные инженерные решения и клубный малоквартирный формат.</p>
+            <p className={styles.Img1_3Desc}>Премиальный клубный дом в закрытом квартале в центре города. Это элегантная архитектура, ультрасовременные инженерные решения и клубный малоквартирный формат.</p>
             <div className={styles.sectionImg1_3TextDesc}>
               <p>1200 кв.м.</p>
               <p>26 этажей</p>
@@ -172,7 +184,7 @@ export default function Home() {
         <div className={styles.sectionImg2_3Title}>Перспективы строительства</div>
         <div className={styles.sectionImg2_3}>
           <div className={styles.sectionImg2_3Pic}>
-            <Image src={img5} width="670" height="500" alt="img5" />
+            <Image src={img5} className={styles.img5} width="670" height="500" alt="img5" />
           </div>
           <div className={styles.sectionImg2_3Text}>
             <p className={styles.sectionImg2_3TextTitle}>Жилой комплекс Премиум</p>
@@ -181,9 +193,6 @@ export default function Home() {
               инженерные решения и клубный малоквартирный формат.</p>
             <p className={styles.sectionImg2_3Desc}>4 кв. 2022 / 4 кв. 2023 </p>
             <a href="" className={styles.sectionImg2_3Link}>Подробнее о проекте</a>
-            {/* <div className={styles.block2}>
-          <div className={styles.sectionImg2_3TextDesc1}>4 кв. 2022 / 4 кв. 2023</div>
-          </div>  */}
           </div>
           <div className={styles.block2}>
             <div className={styles.sectionImg2_3TextDesc1}>
@@ -195,7 +204,7 @@ export default function Home() {
         </div>
         <div className={styles.sectionImg2_3}>
           <div className={styles.sectionImg2_3Pic}>
-            <Image src={img5} width="670" height="500" alt="img5" />
+            <Image src={img5} className={styles.img5} width="670" height="500" alt="img5" />
           </div>
           <div className={styles.sectionImg2_3Text}>
             <p className={styles.sectionImg2_3TextTitle}>Жилой комплекс Премиум</p>
@@ -204,9 +213,6 @@ export default function Home() {
               инженерные решения и клубный малоквартирный формат.</p>
             <p className={styles.sectionImg2_3Desc}>4 кв. 2022 / 4 кв. 2023 </p>
             <a href="" className={styles.sectionImg2_3Link}>Подробнее о проекте</a>
-            {/* <div className={styles.block2}>
-          <div className={styles.sectionImg2_3TextDesc1}>4 кв. 2022 / 4 кв. 2023</div>
-          </div>  */}
           </div>
           <div className={styles.block2}>
             <div className={styles.sectionImg2_3TextDesc1}>
@@ -218,7 +224,7 @@ export default function Home() {
         </div>
         <div className={styles.sectionImg2_3}>
           <div className={styles.sectionImg2_3Pic}>
-            <Image src={img5} width="670" height="500" alt="img5" />
+            <Image src={img5} className={styles.img5} width="670" height="500" alt="img5" />
           </div>
           <div className={styles.sectionImg2_3Text}>
             <p className={styles.sectionImg2_3TextTitle}>Жилой комплекс Премиум</p>
@@ -227,9 +233,6 @@ export default function Home() {
               инженерные решения и клубный малоквартирный формат.</p>
             <p className={styles.sectionImg2_3Desc}>4 кв. 2022 / 4 кв. 2023 </p>
             <a href="" className={styles.sectionImg2_3Link}>Подробнее о проекте</a>
-            {/* <div className={styles.block2}>
-          <div className={styles.sectionImg2_3TextDesc1}>4 кв. 2022 / 4 кв. 2023</div>
-          </div>  */}
           </div>
           <div className={styles.block2}>
             <div className={styles.sectionImg2_3TextDesc1}>
@@ -247,10 +250,10 @@ export default function Home() {
           <Image src={kzs} width="142" height="60" alt="kzs" />
           <Image src={gazprom} width="81" height="60" alt="gazprom" />
           <Image src={bankprim} width="273" height="60" alt="bankprim" />
-          <Image src={sovkombank} width="160" height="60" alt="sovkombank" />
           <Image src={vtb} width="160" height="60" alt="vtb" />
           <Image src={domrf} width="53" height="60" alt="domrf" />
           <Image src={alliance} width="88" height="60" alt="alliance" />
+          <Image src={sovkombank} className={styles.sovkombankimg} width="160" height="60" alt="sovkombank" />
         </div>
       </section>
       <section className={styles.promotionAdvantages}>
@@ -259,56 +262,64 @@ export default function Home() {
           <div className={styles.promotionAdvantages01}>01</div>
           <div className={styles.promotionAdvantagesText}>
             <p className={styles.promotionAdvantagesText01}>Своя производственная база</p>
-            <p>В том числе модульный бетонный завод, участок автотранспорта и механизмов, столярный цех, цех металлоизделий, токарный цех, склады</p>
+            <div className={styles.stripe}></div>
+            <p className={styles.promotionAdvantagesText02}>В том числе модульный бетонный завод, участок автотранспорта и механизмов, столярный цех, цех металлоизделий, токарный цех, склады</p>
           </div>
         </div>
         <div className={styles.promotionAdvantages1}>
           <div className={styles.promotionAdvantages01}>02</div>
           <div className={styles.promotionAdvantagesText}>
             <p className={styles.promotionAdvantagesText01}>Многолетний опыт</p>
-            <p>У нас большой опыт более 50 лет  в сфере строительства объектов различного назначения, ремонта и реконструкции</p>
+            <div className={styles.stripe}></div>
+            <p className={styles.promotionAdvantagesText02}>У нас большой опыт более 50 лет  в сфере строительства объектов различного назначения, ремонта и реконструкции</p>
           </div>
         </div>
         <div className={styles.promotionAdvantages1}>
           <div className={styles.promotionAdvantages01}>03</div>
           <div className={styles.promotionAdvantagesText}>
             <p className={styles.promotionAdvantagesText01}>Резидент порта Владивосток</p>
-            <p>С 2018 года компания входит в реестр резидентов свободного порта Владивосток в соответствии с ФЗ от 13 июля 2015 года №212-ФЗ «О свободном порте Владивосток»</p>
+            <div className={styles.stripe}></div>
+            <p className={styles.promotionAdvantagesText02}>С 2018 года компания входит в реестр резидентов свободного порта Владивосток в соответствии с ФЗ от 13 июля 2015 года №212-ФЗ «О свободном порте Владивосток»</p>
           </div>
         </div>
         <div className={styles.promotionAdvantages1}>
           <div className={styles.promotionAdvantages01}>04</div>
           <div className={styles.promotionAdvantagesText}>
             <p className={styles.promotionAdvantagesText01}>Член СРО Альянс строителей Приморья</p>
-            <p>Компании группы являются членами СРО некоммерческого партнерства «Альянс строителей Приморья» с допуском к работе, оказывающей влияние на безопасность объектов капитального строительства</p>
+            <div className={styles.stripe}></div>
+            <p className={styles.promotionAdvantagesText02}>Компании группы являются членами СРО некоммерческого партнерства «Альянс строителей Приморья» с допуском к работе, оказывающей влияние на безопасность объектов капитального строительства</p>
           </div>
         </div>
         <div className={styles.promotionAdvantages1}>
           <div className={styles.promotionAdvantages01}>05</div>
           <div className={styles.promotionAdvantagesText}>
             <p className={styles.promotionAdvantagesText01}>Многопрофильность</p>
-            <p>Возможность выступать в роли подрядчика, генерального подрядчика и заказчика</p>
+            <div className={styles.stripe}></div>
+            <p className={styles.promotionAdvantagesText02}>Возможность выступать в роли подрядчика, генерального подрядчика и заказчика</p>
           </div>
         </div>
         <div className={styles.promotionAdvantages1}>
           <div className={styles.promotionAdvantages01}>06</div>
           <div className={styles.promotionAdvantagesText}>
             <p className={styles.promotionAdvantagesText01}>Работа в рамках 44-ФЗ</p>
-            <p>Имеем опыт по 44-ФЗ при заключении муниципальных контрактов с доведением их до положительного результата</p>
+            <div className={styles.stripe}></div>
+            <p className={styles.promotionAdvantagesText02}>Имеем опыт по 44-ФЗ при заключении муниципальных контрактов с доведением их до положительного результата</p>
           </div>
         </div>
         <div className={styles.promotionAdvantages1}>
           <div className={styles.promotionAdvantages01}>07</div>
           <div className={styles.promotionAdvantagesText}>
             <p className={styles.promotionAdvantagesText01}>Финансирования</p>
-            <p>Принимаем участия в проектных финансированиях в соответствии ФЗ-214 с открытием счетов-эскроу</p>
+            <div className={styles.stripe}></div>
+            <p className={styles.promotionAdvantagesText02}>Принимаем участия в проектных финансированиях в соответствии ФЗ-214 с открытием счетов-эскроу</p>
           </div>
         </div>
         <div className={styles.promotionAdvantages1}>
           <div className={styles.promotionAdvantages01}>08</div>
           <div className={styles.promotionAdvantagesText}>
             <p className={styles.promotionAdvantagesText01}>Индивидуальный подход</p>
-            <p>Ответственность в выполнении каждого уровня задач, внимательность к каждому клиенту</p>
+            <div className={styles.stripe}></div>
+            <p className={styles.promotionAdvantagesText02}>Ответственность в выполнении каждого уровня задач, внимательность к каждому клиенту</p>
           </div>
         </div>
       </section>
@@ -322,7 +333,7 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.ObjectMapImg}>
-          <Image src={objectmap} width="795" height="900" alt="objectmap" />
+          <Image src={objectmap} className={styles.MapImg} width="795" height="900" alt="objectmap" />
         </div>
       </section>
     </>

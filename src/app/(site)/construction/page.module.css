@@ -56,7 +56,10 @@ span.spncolor {
     color:#fff;
     margin-top:17px;
 }
-
+.ConstApplyText {
+    text-align:center;
+    padding:20px;
+}
 
 
 .ConstImgMenu {
@@ -70,61 +73,150 @@ span.spncolor {
     margin-top:80px;
     margin-left:80px;
 }
-.ConstMenuImg1Title1 {
+.ConstMenuImgTitle {
+    display:flex;
+    justify-content:space-between;
+    margin-top:15px;
+    align-items: center;
+}
+.ConstMenuImgTitle1 {
     font-size:40px;
     color:#272727;
-    margin-top:20px;
-    margin-right:69px;
 }
-.ConstMenuImg1Title2 {
-    margin-top:35px;
-}
-.ConstMenuImg1Text {
+.ConstMenuImgText {
     display:flex;
     gap:55px;
-}
-.ConstMenuImg2Title1 {
-    font-size:40px;
-    color:#272727;
     margin-top:20px;
-    margin-right:134px;
-    
 }
-.ConstMenuImg2Title2 {
-    margin-top:35px;
-    text-align:right;
-}
-
 .ConstImgMenu2 {
     display:flex;
     gap:80px;
     margin-left:200px;
     margin-top:80px;
 }
-.ConstMenuImg3Title1 {
-    font-size:40px;
-    color:#272727;
-    margin-top:20px;
-    margin-right:155px;
-}
-.ConstMenuImg3Title2 {
-    margin-top:35px;
-}
-.ConstMenuImg3Text {
-    display:flex;
-    gap:55px;
-}
 
-.ConstMenuImg4Title1 {
-    font-size:40px;
-    color:#272727;
-    margin-top:20px;
-    margin-right:100px;
+@media (max-width: 1000px) {
+    .ConstTitle {
+        font-size:70px;
+        margin-left:20px;
+    }
+    .ConstBtn {
+        margin-left: 20px;
+    }
+    .ConstFilter {
+        margin-left: 20px;
+    }
+    .ConstImgMenu {
+        display:flex;
+        flex-direction:column;
+    }
+    .ConstMenuImg1 {
+        margin-left:150px;  
+        width:690px;
+    }
+    .MenuImg {
+        width: 690px;
+        height:350px;
+        object-fit: cover;
+    }
+    .ConstMenuImg2 {
+        margin-left:150px;
+        width:690px;
+    }
+    .ConstImgMenu2 {
+        margin-left: 150px;
+    }
+    .ConstImgMenu2 {
+        display:flex;
+        flex-direction:column;
+    }
+    .ConstMenuImg3 {
+        width:690px;
+    }
+    .ConstMenuImg1Text {
+        display:flex;
+        justify-content: space-between;
+        gap:0px;
+    }
 }
-.ConstMenuImg4Title2 {
-    margin-top:35px;
+@media (max-width: 640px) {
+    .ConstTitle {
+        font-size:58px;
+    }
+    .ConstFilter {
+        flex-wrap:wrap;
+        width:560px;
+    }
+    .ConstStage {
+        width:auto;
+    }
+    .ConstChange {
+        width: auto;
+    }
+    .ConstApply {
+        margin-top:0px;
+    }
+    .ConstMenuImg1 {
+        margin-left:20px;  
+        width:600px;
+    }
+    .ConstMenuImg2 {
+        margin-left:20px;  
+        width:600px;
+    }
+    .ConstMenuImg3 {
+        width:600px;
+    }
+    .ConstImgMenu2 {
+        margin-left:20px;  
+    }
+    .MenuImg {
+        width: 600px;
+        height:350px;
+        object-fit: cover;
+    }
 }
-.ConstMenuImg4Text {
-    display:flex;
-    gap:55px;
+@media (max-width: 320px) {
+    .ConstTitle {
+        font-size:40px;
+    }
+    .ConstBtn {
+        gap:30px;
+    }
+    .ConstFilter {
+        flex-wrap:wrap;
+        width:280px;
+        gap:0px;
+    }
+    .ConstChange {
+        font-size:15px;
+    }
+    .ConstStage {
+        margin:0px;
+    }
+    .ConstMenuImg1 {  
+        width:280px;
+    }
+    .ConstMenuImg2 {  
+        width:280px;
+    }
+    .ConstMenuImg3 {  
+        width:280px;
+    }
+    .MenuImg {
+        width: 280px;
+        height:200px;
+        object-fit: cover;
+    }
+    .ConstMenuImgTitle {
+        display:flex;
+        flex-direction: column;
+        justify-content:left;
+        margin-top:30px;
+        align-items:flex-start;
+    }
+    .ConstMenuImgText {
+        flex-direction: column;
+        gap: 10px;
+    }
 }

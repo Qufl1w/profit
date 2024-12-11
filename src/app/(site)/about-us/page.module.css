@@ -1,13 +1,13 @@
 .AboutUsText1 {
-    padding-left:200px;
-    padding-top:100px;
+    margin-left:200px;
+    margin-top:100px;
     font-size:80px;
     width:832px;
     color:#1F3766;
 }
 .AboutUsImg1 {
-    padding-left:100px;
-    padding-top:80px;
+    margin-left:100px;
+    margin-top:80px;
     position:absolute;
 }
 .AboutUsBlock1 {
@@ -53,7 +53,7 @@
     margin-top:80px;
 }
 .AboutUsBtn {
-    padding-top:40px;
+    margin-top:40px;
 }
 .AboutUsBtn1 {
     text-decoration:none;
@@ -77,31 +77,42 @@
     margin-top:125px;
     width:517px;
     margin-left:200px;
-    font-size:16px;
 }
-.AboutCompanyImg {
+.AboutCompanyimg {
     margin-top:40px;
     float:right;
     margin-left:83px;
 }
 .AboutUsTile {
     margin-top:200px;
-    position: relative;
-  width: 100%;
-  display: flex;
+}
+.AboutUsBlocks {
+    display:flex;
+    position: absolute;
+    top:120px;
+    left:400px;
+}
+.BlocksGroup1 {
+    gap:20px;
+    width:570px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.BlocksGroup2 {
+    gap:20px;
+    width:570px;
+    display:flex;
+    flex-wrap: wrap;
 }
 .AboutUsTileImg {
-    position:relative;
+    position: relative;
+    object-fit: cover;
     width: 100%;
 }
 .AboutUsTileBlock1 {
-    position:absolute;
-    margin-top:120px;
-    margin-left:200px;
     width:250px;
     height:250px;
     background:#3460AE;
-    justify-content:center;
 }
 .AboutUsBlock1TitleText {
     display: flex;
@@ -126,13 +137,9 @@
     margin-left:25px;
 }
 .AboutUsTileBlock2 {
-    position:absolute;
-    margin-top:120px;
-    margin-left:470px;
     width:250px;
     height:250px;
     background:#214A90;
-    justify-content:center;
 }
 .AboutUsBlock2Title {
     font-size:80px;
@@ -148,9 +155,6 @@
     margin-left:25px;
 }
 .AboutUsTileBlock3 {
-    position:absolute;
-    margin-top:390px;
-    margin-left:200px;
     width:250px;
     height:250px;
     background:#1F3766;
@@ -170,9 +174,6 @@
     margin-left:25px;
 }
 .AboutUsTileBlock4 {
-    position:absolute;
-    margin-top:390px;
-    margin-left:470px;
     width:250px;
     height:250px;
     background:#1F3766;
@@ -197,9 +198,6 @@
     margin-left:25px;
 }
 .AboutUsTileBlock5 {
-    position:absolute;
-    margin-top:120px;
-    margin-left:880px;
     width:250px;
     height:250px;
     background:#3460AE;
@@ -219,9 +217,6 @@
     margin-left:25px;
 }
 .AboutUsTileBlock6 {
-    position:absolute;
-    margin-top:120px;
-    margin-left:1150px;
     width:250px;
     height:250px;
     background:#214A90;
@@ -241,9 +236,6 @@
     margin-left:25px;
 }
 .AboutUsTileBlock7 {
-    position:absolute;
-    margin-top:390px;
-    margin-left:880px;
     width:250px;
     height:250px;
     background:#1F3766;
@@ -268,9 +260,6 @@
     margin-left:25px;
 }
 .AboutUsTileBlock8 {
-    position:absolute;
-    margin-top:390px;
-    margin-left:1150px;
     width:250px;
     height:250px;
     background:#102349;
@@ -300,9 +289,11 @@
     margin:200px;
     height:746px;
 }
-/* .AboutUsman {
-    margin:200px;
-} */ 
+.stripe {
+    border:solid 3px #3460AE;
+    width:175px;
+    margin-top:40px;
+}
 .AboutUsText {
     width:755px;
     float:right;
@@ -316,7 +307,7 @@
 .AboutUsPainTitle {
     font-size:24px;
     color:#1F3766;
-    margin-top:87px;
+    margin-top:47px;
 }
 .AboutUsPainText {
     font-size:16px;
@@ -349,5 +340,290 @@ margin-left:200px;
     margin-top:183px;
     margin-left:200px;
     gap:30px;
-    
+}
+@media (max-width: 1000px) {
+    .AboutUsText1 {
+        margin-left:50px;
+        font-size:70px;
+    }
+    .AboutUsImg1 {
+        width:700px;
+        height:300px;
+        margin-left:20px;
+        margin-top:40px;
+    }
+    .AboutUsBlock1 {
+        margin-left:520px;
+        margin-top:290px;
+    }
+    .AboutUsBlock2Text1 {
+        margin-left:20px;
+        margin-top:75px;
+    }
+    .AboutUsBlock2Text2 {
+        margin-left:20px;
+        margin-top:60px;
+    }
+    .AboutCompanyimg {
+        width: 480px;
+        height: 400px;
+    }
+    .AboutCompanyText {
+        margin-top:40px;
+        width:430px;
+        margin-left:20px;
+        height:325px;
+        font-size:15px;
+    }
+    .AboutCompanyImg {
+        margin-top:10px;
+    }
+    .AboutCompanyTitle {
+        font-size:70px;
+        margin-top:150px;
+        margin-left:20px;
+    }
+    .AboutUsTileImg {
+        width: 1000px;
+        height:1180px;
+        object-fit: cover;
+    }
+    .AboutUsBlocks {
+        top:60px;
+        left:240px;
+        width:570px;
+    }
+    .AboutUsManSection {
+        margin:0px;
+    }
+    .AboutUsMan {
+        width:300px;
+        height:450px;
+    }
+    .AboutUsman {
+        display: flex;
+    }
+    .AboutUsManSection {
+        margin-top:150px;
+        margin-left:20px;
+    } 
+    .AboutUsText {
+        width:600px;
+        margin-top:170px;
+        margin-left:30px;
+        margin-right:0px;
+    }
+    .stripe {
+        margin-top:30px;
+    }
+    .AboutUsPainTitle {
+        margin-top:30px;
+    }
+    .AboutUsPainText {
+        width:285px;
+    }
+    .AboutUsComGroupImg {
+        width:450px;
+        height: 350px;
+        margin-right:20px;
+    }
+    .AboutUsComGroupTitle {
+        font-size:70px;
+        margin-left:20px;
+    }
+    .AboutUsComGroupText {
+        width:450px;
+        margin-left:20px;
+        margin-top:107px;
+    }
+    .AboutUsComGroupimg {
+        margin-left:52px;
+    }
+}
+@media (max-width: 640px) {
+    .AboutUsText1 {
+        margin-left:20px;
+        font-size:60px;
+        width:618px;
+    }
+    .AboutUsImg1 {
+        width:480px;
+        height:300px;
+    }
+    .AboutUsBlock1 {
+        margin-left:127px;
+        margin-top:240px;
+    }
+    .AboutUsBlock2 {
+        width:640px;
+        flex-direction:column;
+        height:645px;
+    }
+    .AboutCompanyTitle {
+        font-size:60px;
+    }
+    .AboutCompanyText {
+        width:600px;
+    }
+    .AboutCompanyimg {
+        float: left;
+        margin-left:20px;
+        height:400px;
+        width:600px;
+    }
+    .AboutCompany {
+        flex-direction:column-reverse;
+    }
+    .AboutUsTileImg {
+        width:640px;
+        height:1180px;
+    }
+    .AboutUsBlocks {
+        left:60px;
+    }
+    .AboutUsMan {
+        position:relative;
+    }
+    .AboutUsText {
+        margin-top:340px;
+        margin-left:100px;
+        position:absolute;
+        width:440px;;
+        background:#FFFF;
+        padding: 30px;
+    }
+    .AboutUsComGroupTitle {
+        font-size: 60px;
+        margin-top: 450px;
+    }
+    .AboutUsComGroupImg {
+        width:600px;
+        height:350px;
+        object-fit: cover;
+        margin-left:20px;
+    }
+    .AboutUsCom {
+        display:flex;
+        flex-direction: column;
+    }
+    .AboutUsComGroupText {
+        width:600px;
+        margin-top:40px;
+    }
+    .logo_red {
+        width: 150px;
+        height:40px;
+    }
+    .AboutUsComGroupimg {
+        margin-top:60px;
+        margin-left:20px;
+        width:510px;
+        flex-wrap:wrap;
+    }
+}
+@media (max-width: 320px) {
+    .AboutUsText1 {
+        font-size:30px;
+        width:280px;
+    }
+    .AboutUsImg1 {
+        width:280px;
+        height:200px;
+        object-fit: cover;
+        margin-left:0px;
+    }
+    .AboutUsHeading {
+        font-size:35px;
+        width:100px;
+    }
+    .AboutUsBlock1 {
+        width:240px;
+        margin-left:60px;
+        margin-top:245px;
+        height:280px;
+    }
+    .AboutUsDescription {
+        width:200px;
+    }
+    .AboutUsBlock2 {
+        width:320px;
+        flex-direction:column;
+        height:795px;
+    }
+    .AboutUsBlock2Text1 {
+        width:280px;
+        margin-top:60px;
+    }
+    .AboutUsBlock2Text2 {
+        width:280px;
+        margin-top:40px;
+    }
+    .AboutUsBtn {
+        margin-top:50px;
+    }
+    .AboutCompanyTitle {
+        font-size:40px;
+    }
+    .AboutCompanyimg {
+        width:280px;
+        height:230px;
+        margin-top:0px;
+    }
+    .AboutCompanyText {
+        width:280px;
+        margin-top:0px;
+    }
+    .AboutUsTileImg {
+        width:320px;
+        height:2260px;
+    }
+    .AboutUsTileBlock5 {
+        margin-top:20px;
+    }
+    .AboutUsBlocks {
+        width:250px;
+        left:35px;
+        flex-wrap:wrap;
+    }
+    .AboutUsMan {
+        width:140px;
+        height:210px;
+    }
+    .AboutUsText {
+        margin-top:165px;
+        margin-left:40px;
+        position:absolute;
+        width:250px;;
+        padding: 15px;
+    }
+    .AboutUsPainImg {
+        width:100px;
+        height:60px;
+        margin-top:-20px;
+    }
+    .stripe {
+        width:100px;
+    }
+    .AboutUsPainText {
+        width:218px;
+    }
+    .AboutUsComGroupTitle {
+        font-size:30px;
+        margin-top: 600px;
+        margin-bottom:40px;
+    }
+    .AboutUsComGroupImg {
+        width:280px;
+        height:200px;
+    }
+    .AboutUsComGroupText {
+        width:280px;
+    }
+    .logo_red {
+        width:130px;
+        height:40px;
+    }
+    .AboutUsComGroupimg {
+        width:290px;
+    }
 }

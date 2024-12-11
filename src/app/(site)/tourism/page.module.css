@@ -30,3 +30,81 @@
 .TourismRublinoImg {
     margin-left:370px;
 }
+@media (max-width: 1000px) {
+    .TourismTitle {
+        font-size: 70px;
+        margin-left: 20px;
+    }
+    .TourismSection {
+        margin-left: 20px;
+    }
+    .TourismImg {
+        width: 420px;
+        height: 400px;
+        object-fit: cover;
+    }
+    .TourismLinkMore {
+        margin-top: 20px;
+        position: absolute;
+    }
+}
+@media (max-width: 640px) {
+    .TourismTitle {
+        font-size: 60px;
+    }
+    .TourismImg {
+        width: 540px;
+        height: 360px;
+        object-fit: cover;
+    }
+    .TourismSection {
+        flex-direction: column;
+    }
+    .TourismImgDesc {
+        width: 460px;
+    }
+    .TourismImgTitle {
+        margin-bottom: 20px;
+    }
+    .TourismRublinoImg {
+        margin-left: 400px;
+        margin-top: -20px;
+    }
+    .TourismLinkMore {
+        margin-top: 15px;
+        position: absolute;
+    }
+}
+@media (max-width: 320px) {
+    .TourismTitle {
+        font-size: 40px;
+    }
+    .TourismImg {
+        width: 280px;
+        height: 180px;
+        object-fit: cover;
+    }
+    .TourismImgText {
+        margin-left: 20px;
+    }
+    .TourismImgTitle {
+        font-size: 30px;
+        width: 220px;
+    }
+    .TourismImgDesc {
+        width: 240px;
+    }
+    .TourismRublinoImg {
+        position: relative;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .TourismLinkMore {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .TourismLinkMore {
+        margin-top: 30px;
+        position: static;
+    }
+}

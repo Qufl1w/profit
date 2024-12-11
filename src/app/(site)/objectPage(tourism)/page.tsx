@@ -29,12 +29,12 @@ export default function Page() {
 
             <section className={styles.ImgList}>
                 <div className={styles.ImgListItems}>
-                    <Image src={TourismObject2} width='600' height='500' alt="TourismObject" />
+                    <Image src={TourismObject2} className={styles.TourismObject2} width='600' height='500' alt="TourismObject" />
                     <div className={styles.ImgListRight}>
-                        <Image src={TourismObjectList1} width='250' height='230' alt="TourismObjectList1" />
-                        <Image src={TourismObjectList2} width='250' height='230' alt="TourismObjectList2" />
-                        <Image src={TourismObjectList3} width='250' height='230' alt="TourismObjectList3" />
-                        <Image src={TourismObjectList4} width='250' height='230' alt="TourismObjectList4" />
+                        <Image src={TourismObjectList1} className={styles.TourismObjectList1} width='250' height='230' alt="TourismObjectList1" />
+                        <Image src={TourismObjectList2} className={styles.TourismObjectList2} width='250' height='230' alt="TourismObjectList2" />
+                        <Image src={TourismObjectList3} className={styles.TourismObjectList3} width='250' height='230' alt="TourismObjectList3" />
+                        <Image src={TourismObjectList4} className={styles.TourismObjectList4} width='250' height='230' alt="TourismObjectList4" />
                     </div>
                 </div>
             </section>
@@ -64,7 +64,7 @@ export default function Page() {
                                 </div>
                                 <div className={styles.InfoText}>
                                     <Image src={Geo} width='20' height='20' alt="Geo" />
-                                    <p>г. Владивосток, ул. Адмирала Угрюмова, 48/49</p>
+                                    <p className={styles.InfoTextAdapt}>г. Владивосток, ул. Адмирала Угрюмова, 48/49</p>
                                 </div>
 
                                 <div className={styles.InfoText}>
@@ -72,10 +72,11 @@ export default function Page() {
                                     <a href="" className={styles.InfoLink}>рублино.рф</a>
                                 </div>
                             </div>
-                            <Image src={TourismRublino} width='100' height='100' alt="TourismRublino" />
+                            <Image src={TourismRublino} className={styles.TourismRublino} width='100' height='100' alt="TourismRublino" />
                         </div>
                     </div>
-                    <Image src={TourismBase} width='540' height='400' alt="TourismBase" />
+                    <Image src={TourismObject2} className={styles.TourismObjectAdapt} width='600' height='500' alt="TourismObject" />
+                    <Image src={TourismBase} className={styles.TourismBase} width='540' height='400' alt="TourismBase" />
                 </div>
             </section>
         </>

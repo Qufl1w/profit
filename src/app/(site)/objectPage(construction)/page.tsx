@@ -27,18 +27,18 @@ export default function Page() {
                 <Image src={ObjectPageImg} className={styles.objectPageImg} alt="ObjectPageImg" />
                 <div className={styles.ImgText}>
                     <div className={styles.ImgTitle}>ЖК Премиум</div>
-                    <p>Жилой комплекс бизнес-класса в самом центре города</p>
+                    <p className={styles.ImgTitleText}>Жилой комплекс бизнес-класса в самом центре города</p>
                 </div>
             </div>
 
             <section className={styles.ComplexItem}>
                 <div className={styles.ImgList}>
-                    <Image src={ObjectLsitImg} width="600" height="500" alt="ConstMenuObjectLsitImg" />
+                    <Image src={ObjectLsitImg} className={styles.ObjectListImg} width="600" height="500" alt="ConstMenuObjectLsitImg" />
                     <div className={styles.ImgListRight}>
-                        <Image src={ObjectLsitImg1} width="250" height="230" alt="ConstMenuObjectLsitImg" />
-                        <Image src={ObjectLsitImg2} width="250" height="230" alt="ConstMenuObjectLsitImg" />
-                        <Image src={ObjectLsitImg3} width="250" height="230" alt="ConstMenuObjectLsitImg" />
-                        <Image src={ObjectLsitImg4} width="250" height="230" alt="ConstMenuObjectLsitImg" />
+                        <Image src={ObjectLsitImg1} className={styles.ObjectListImg1} width="250" height="230" alt="ConstMenuObjectLsitImg" />
+                        <Image src={ObjectLsitImg2} className={styles.ObjectListImg2} width="250" height="230" alt="ConstMenuObjectLsitImg" />
+                        <Image src={ObjectLsitImg3} className={styles.ObjectListImg3} width="250" height="230" alt="ConstMenuObjectLsitImg" />
+                        <Image src={ObjectLsitImg4} className={styles.ObjectListImg4} width="250" height="230" alt="ConstMenuObjectLsitImg" />
                     </div>
                 </div>
 
@@ -48,11 +48,11 @@ export default function Page() {
                     <div className={styles.AboutComplexText}>
                         <div className={styles.AboutComplexTitle}>
                             <div className={styles.AboutComplexDesc}>
-                                <Image src={Building} className={styles.AboutComplexImg} width="20" height="20" alt="Building" />
+                                <Image src={Building} width="20" height="20" alt="Building" />
                                 <p>1200 кв.м.</p>
                             </div>
                             <div className={styles.AboutComplexDesc}>
-                                <Image src={Stairs} className={styles.AboutComplexImg} width="20" height="20" alt="Stairs" />
+                                <Image src={Stairs} width="20" height="20" alt="Stairs" />
                                 <p>26 этажей</p>
                             </div>
                             <div className={styles.AboutComplexDesc}>
@@ -79,7 +79,7 @@ export default function Page() {
                         <p>Компания ООО Специализированный застройщик «Эмеральд», ведёт бизнес в
                             строгом соответствии с критериями надежности, современными стандартами качества, ответственности перед обществом, своими клиентами и партнерами.</p>
                         <div className={styles.DevLink}>
-                            <Image src={DevLogo} className={styles.DevImg} width="190" height="60" alt="DevLogo" />
+                            <Image src={DevLogo} width="190" height="60" alt="DevLogo" />
                             <a href="" className={styles.DevSiteLink}>Перейти на сайт</a>
                         </div>
                         <div className={styles.DevFiles}>
@@ -119,10 +119,10 @@ export default function Page() {
                     А это значит,что клиенту предоставляется скидка на процентную ставку в размере 3%. Скидки применяются и по базовым программам, и по ипотеке с господдержкой.</p>
                     <p className={styles.MortItemText}>Что вы получаете:</p>
                     <ul>
-                    <li>один из самых основных плюсов, это уменьшение ежемесячного платежа по ипотеке</li>
-                    <li>меньше процентов начисляется по кредиту</li>
-                    <li>очень выгодно, если не планируете досрочное погашение ипотеки, значительно уменьшается сумма переплаты по кредиту</li>
-                    <li>возможность купить квартиру раньше, чем планировалось.</li>
+                    <li className={styles.MortItemText}>один из самых основных плюсов, это уменьшение ежемесячного платежа по ипотеке</li>
+                    <li className={styles.MortItemText}>меньше процентов начисляется по кредиту</li>
+                    <li className={styles.MortItemText}>очень выгодно, если не планируете досрочное погашение ипотеки, значительно уменьшается сумма переплаты по кредиту</li>
+                    <li className={styles.MortItemText}>возможность купить квартиру раньше, чем планировалось.</li>
                     </ul>
                     <p className={styles.MortItemText}>Подробности акции можно уточнить у наших менеджеров или сотрудников банка Дом.рф.</p>
                 </div>

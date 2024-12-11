@@ -46,7 +46,27 @@
     position: relative;
     display: flex;
     align-items: flex-end;
-    z-index: 1;
+    overflow: hidden;
+}
+.CatalogCard img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.CatalogCard::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1F3766B2; /* Полупрозрачный цвет */
+    opacity: 0; /* Прозрачный изначально */
+    transition: opacity 0.3s ease;
+    z-index: 1; /* Псевдоэлемент накладывается поверх изображения */
+}
+.CatalogCard:hover::after {
+    opacity: 1;
 }
 .CatalogCardText {
     position:absolute;
@@ -54,4 +74,73 @@
     margin-left:20px;
     font-size:24px;
     color:#FFFFFF;
+}
+@media (max-width:1000px) {
+    .SpecMacTitle {
+        font-size: 70px;
+        margin-left: 20px;
+    }
+    .SpecMacDescImg {
+        margin-left: 20px;
+        width: 700px;
+        height: 300px;
+        object-fit: cover;
+    }
+    .SpecMacBlock {
+        margin-left: 500px;
+        margin-top: 310px;
+    }
+    .CatalogTitle {
+        margin-left: 20px;
+        font-size: 70px;
+    }
+    .CatalogMenu {
+        margin-left: 20px;
+    }
+}
+@media (max-width:640px) {
+    .SpecMacTitle {
+        font-size: 60px;
+    }
+    .SpecMacDescImg {
+        width: 480px;
+    }
+    .SpecMacBlock {
+        margin-left: 150px;
+        margin-top: 250px;
+    }
+    .CatalogTitle {
+        font-size: 60px;
+    }
+    .CardImg {
+        width: 290px;
+        object-fit: cover;
+    }
+    .CatalogCard {
+        width: 290px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:320px) {
+    .SpecMacTitle {
+        font-size: 40px;
+    }
+    .SpecMacDescImg {
+        width: 260px;
+        height: 200px;
+    }
+    .SpecMacBlock {
+        margin-left: 60px;
+        margin-top: 240px;
+        width: 240px;
+    }
+    .SpecMacBlockText {
+        width: 240px;
+        margin-left: 20px;
+        padding-top: 10px;
+    }
+    .CatalogTitle {
+        font-size: 40px;
+    }
 }

@@ -60,17 +60,17 @@ padding-top:1px;
     margin-top:280px;
     right: calc(50% - 590px);
 }
-
+.ProdCatalog {
+    margin-left:200px;
+}
 .ProdCatalogTitle {
     font-size:80px;
     color:#1F3766;
     margin-top:200px;
-    margin-left:200px;
 }
 .ProdCatalogItem {
     display:flex;
     flex-wrap:wrap;
-    margin-left:200px;
 }
 .ProdCatalogCard {
     width: 350px;
@@ -90,7 +90,6 @@ padding-top:1px;
 .ProdCardTitle {
     font-size:40px;
     color:#272727;
-
 }
 .ProdPrice {
     margin-left:200px;
@@ -111,7 +110,6 @@ padding-top:1px;
     margin-bottom:50px;
 }
 .ProdPriceItemTitle {
-    margin-right:955px;
     font-size: 24px;
     color: #272727;
 }
@@ -119,4 +117,141 @@ padding-top:1px;
     font-size: 24px;
     color: #272727;
     margin-right:320px;
+}
+@media (max-width: 1000px) {
+.ProdTitle {
+    font-size:70px;
+    margin-left:20px;
+    width:950px;
+}
+.ProfTitleImg {
+    width:700px;
+    height:300px;
+    margin-left:20px;
+}
+.Block {
+    margin-top:290px;
+    margin-left:500px;
+    margin-bottom:80px;
+    }
+    .LogisticsImg {
+        width:800px;
+        height:480px;
+    }
+    .ProdCatalog {
+        margin-left:20px;
+    } 
+    .ProdCatalogTitle {
+        font-size:70px;
+    }
+    .ProdCatalogItem {
+        display:flex;
+        flex-wrap:wrap;
+        width:850px;
+        margin-left:40px;
+    }
+    .ProdCard {
+        width:260px;
+        height:200px;
+        padding-left:40px;
+        padding-right:40px;
+        padding-top:90px;
+        padding-bottom:90px;
+        margin-bottom:50px;
+    }
+    .ProdCatalogCard {
+        margin-right:10px;
+        margin-bottom:60px;
+    }
+    .ProdPrice {
+        margin-left:20px;
+    }
+    .ProdPriceItemTitle {
+        margin-right:0px;
+    }
+}
+@media (max-width: 640px) {
+    .ProdTitle {
+        font-size:60px;
+        margin-left:20px;
+        width:60px;
+    }
+    .ProfTitleImg {
+        width:480px;
+        height:300px;
+        margin-left:20px;
+        object-fit: cover;
+    }
+    .Block {
+        margin-top:240px;
+        margin-left:150px;
+        width: 470px;
+    }
+    .ProdSlider {
+        display: none;
+    }
+    .ProdCatalogTitle {
+        font-size:60px;
+    }
+    .ProdCatalogItem {
+        width:350px;
+        margin-left:145px;
+    }
+    .ProdCard {
+        margin-bottom:20px;
+    }
+    .ProdPriceItemText {
+        font-size: 24px;
+        color: #272727;
+        margin-right:140px;
+    }
+    .ProdPriceTitle {
+        font-size: 60px;
+    }
+}
+@media (max-width: 320px) {
+    .ProdTitle {
+        font-size:30px;
+        width:280px;
+    }
+    .ProfTitleImg {
+        width:260px;
+        height:200px;
+        object-fit: cover;
+    }
+    .Block {
+        margin-top:175px;
+        margin-left:60px;
+        width: 240px;
+    }
+    .BlockText {
+        width:215px;
+    }
+    .ProdCatalogTitle {
+        font-size:30px;
+    }
+    .ProdCard {
+        width:200px;
+        height:180px;
+        padding-left:35px;
+        padding-right:35px;
+        padding-top:60px;
+        padding-bottom:60px;
+        margin-bottom:15px;
+    }
+    .ProdCatalogItem {
+        margin-left:0px;
+    }
+    .ProdCardTitle {
+        font-size:25px;
+    }
+    .ProdPriceTitle {
+        font-size:30px;
+    }
+    .ProdPriceTitleText {
+        width:280px;
+    }
+    .ProdPriceItemText {
+        margin-right:0px;
+    }
 }

@@ -11,7 +11,7 @@ export default function Page() {
       <>    
       <div className={styles.TourismTitle}>Туризм</div>
       <div className={styles.TourismSection}>
-      <Link href="/objectPage(tourism)"> <Image src={TourismImg} width="600" height="400" alt="TourismImg"/></Link>
+      <Link href="/objectPage(tourism)"> <Image src={TourismImg} className={styles.TourismImg} width="600" height="400" alt="TourismImg"/></Link>
       <div className={styles.TourismImgText}>
       <p className={styles.TourismImgTitle}>База отдыха Рублино</p>
       <p>г. Владивосток, ул. Адмирала Угрюмова, 48/49</p>
@@ -26,7 +26,7 @@ export default function Page() {
       </div>
 
       <div className={styles.TourismSection}>
-      <Link href="/objectPage(tourism)"> <Image src={TourismImg} width="600" height="400" alt="TourismImg"/></Link>
+      <Link href="/objectPage(tourism)"> <Image src={TourismImg} className={styles.TourismImg} width="600" height="400" alt="TourismImg"/></Link>
       <div className={styles.TourismImgText}>
       <p className={styles.TourismImgTitle}>База отдыха Рублино</p>
       <p>г. Владивосток, ул. Адмирала Угрюмова, 48/49</p>
@@ -41,7 +41,7 @@ export default function Page() {
       </div>
 
       <div className={styles.TourismSection}>
-      <Link href="/objectPage(tourism)"> <Image src={TourismImg} width="600" height="400" alt="TourismImg"/></Link>
+      <Link href="/objectPage(tourism)"> <Image src={TourismImg} className={styles.TourismImg} width="600" height="400" alt="TourismImg"/></Link>
       <div className={styles.TourismImgText}>
       <p className={styles.TourismImgTitle}>База отдыха Рублино</p>
       <p>г. Владивосток, ул. Адмирала Угрюмова, 48/49</p>
@@ -56,7 +56,7 @@ export default function Page() {
       </div>
 
       <div className={styles.TourismSection}>
-      <Link href="/objectPage(tourism)"> <Image src={TourismImg} width="600" height="400" alt="TourismImg"/></Link>
+      <Link href="/objectPage(tourism)"> <Image src={TourismImg} className={styles.TourismImg} width="600" height="400" alt="TourismImg"/></Link>
       <div className={styles.TourismImgText}>
       <p className={styles.TourismImgTitle}>База отдыха Рублино</p>
       <p>г. Владивосток, ул. Адмирала Угрюмова, 48/49</p>

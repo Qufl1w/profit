@@ -41,9 +41,6 @@
 .BlockText {
     margin:20px;
 }
-/* .Jobs {
-    margin-bottom:200px;
-} */
 .Jobs {
     margin-top:120px;
     margin-left:240px;
@@ -73,6 +70,9 @@
     justify-content: center;
     align-items: center;
     text-decoration:none;
+}
+.JobsBtn1:hover {
+    background:#214A90;
 }
 .JobsBtn2 {
     text-decoration:none;
@@ -104,6 +104,13 @@ justify-content:center;
 text-decoration:none;
 margin-left:675px;
 margin-top:90px;
+}
+.JobsBtn3:hover {
+    background:#214A90;
+    color: #FFFFFF;
+}
+.JobsBtnLink {
+    text-decoration: none;
 }
 .popup_title {
     font-size:80px;
@@ -187,6 +194,9 @@ margin-top:90px;
     color:#FFFF;
     margin-top:45px;
 }
+.popup_submit:hover {
+    background: #214A90;
+}
 .Resume {
     display:flex;
     gap:10px;
@@ -216,4 +226,189 @@ margin-top:90px;
 .popup_text {
     margin-right:140px;
     margin-top:-19px;
+}
+@media (max-width: 1000px) {
+    .JobsTitle {
+        font-size:70px;
+        width: 980px;
+        margin-left:20px;
+    }
+    .JobsImg {
+        width:700px;
+        height:300px;
+        margin-left:20px;
+    }
+    .JobsBlock {
+        margin-left:500px;
+        margin-top:340px;
+    }
+    .Jobs {
+        margin-left:60px;
+    }
+    .JobsTitle {
+        font-size:70px;
+        margin-top:150px;
+    }
+    .JobsBtn3 {
+        margin-left:375px;
+    }
+    .popup_title {
+        font-size:70px;
+        margin-left:30px;
+    }
+    .popup_content {
+        max-width:960px;
+        position:relative;
+        width:960px;
+        height:745px;
+        transition:all 0.4s ease 0s;
+        opacity:0;
+        transform:translate(0px, -100%);
+    }
+    .popup_form {
+        width: 480px;
+    }
+    .popup_submit {
+        width: 490px;
+    }
+    .popup {
+        width: auto;
+        padding: 0px;
+    }
+    .JobsPopupImg {
+        width: 380px;
+        height: 420px;
+        object-fit: cover;
+    }
+    .popup_text {
+        margin-right: 40px;
+    }
+}
+@media (max-width: 640px) {
+    .JobsTitle {
+        font-size:60px;
+        width: 600px;
+    }
+    .JobsImg {
+        width:480px;
+        object-fit: cover;
+    }
+    .JobsBlock {
+        margin-left:145px;
+        margin-top:240px;
+    }
+    .JobsBtn3 {
+        margin-left:195px;
+    }
+    .popup_title {
+        font-size:60px;
+        width: 400px;
+        margin-top: 50px;
+    }
+    .popup_content {
+        max-width:600px;
+        position:relative;
+        width:600px;
+        height:660px;
+        transition:all 0.4s ease 0s;
+        opacity:0;
+        transform:translate(0px, -100%);
+    }
+    .popup_form {
+        width: 480px;
+    }
+    .popup_submit {
+        width: 490px;
+    }
+    .popup {
+        width: auto;
+        padding: 20px;
+    }
+    .JobsPopupImg {
+       display: none;
+    }
+    .popup_text {
+        margin-right: 40px;
+    }
+}
+@media (max-width: 320px) {
+    .JobsTitle {
+        font-size:30px;
+        width: 280px;
+    }
+    .JobsImg {
+        width:260px;
+        height:200px;
+        object-fit: cover;
+    }
+    .JobsBlock {
+        margin-left:60px;
+        margin-top:175px;
+        width:240px;
+    }
+    .BlockTitle::before {
+        bottom:250px;
+    }
+    .BlockTitle {
+        font-size:30px;
+    }
+    .JobsSectTitle {
+        font-size: 25px;
+        line-height:30px;
+    }
+    .Jobs {
+        margin-left:20px;
+    }
+    .JobsBtn3 {
+        display:none;
+    }
+    .popup_title {
+        font-size:30px;
+        width: 240px;
+        margin-bottom: 20px;
+    }
+    .popup_content {
+        max-width:320px;
+        position:relative;
+        width:320px;
+        height:560px;
+        transition:all 0.4s ease 0s;
+        opacity:0;
+        transform:translate(0px, -100%);
+    }
+    .popup_contentItem {
+        margin-left: 20px;
+    }
+    .popup_textItem {
+        margin-bottom: 20px;
+    }
+    .Close {
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+    }
+    .popup_close  {
+        right: 30px;
+        top: 30px;
+    }
+    .popup_form {
+        width: 280px;
+    }
+    .popup_submit {
+        width: 290px;
+        margin-top: 20px;
+    }
+    .Resume {
+        margin-top: 20px;
+    }
+    .popup {
+        width: auto;
+        padding:0px;
+    }
+    .JobsPopupImg {
+       display: none;
+    }
+    .popup_text {
+        margin-right: 40px;
+    }
 }

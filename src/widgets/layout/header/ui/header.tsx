@@ -4,15 +4,14 @@ import Link from 'next/link';
 import Image from 'next/image';
 import styles from './header.module.css';
 import Logo from "@/assets/images/logo.svg";
+import BurgerMenu from '@/assets/images/BurgerMenu.svg'
 
 export default function Header() {
     return (
         <>
             <header className={styles.header}>
                 <div className={styles.headerNav}>
-                    <a href="/">
-                        <Image className={styles.logo} width={190} height={60} src={Logo} alt="Logo" />
-                    </a>
+                    <a href="/"> <Image className={styles.logo} width={190} height={60} src={Logo} alt="Logo" /></a>
                     <div className={styles.menu}>
                         <nav>
                             <ul className="list">
@@ -28,11 +27,15 @@ export default function Header() {
                             </ul>
                         </nav>
                     </div>
-                    <button className={styles.buttonMenu}>Menu</button>
                 </div>
+                <div className={styles.Adapt}>
                 <div className={styles.phone}>
                     <a href="tel:+79656784559" className={styles.itemLink}>+7 965 678 45 59</a>
                 </div>
+                <div className={styles.header_burger}>            
+                <a href="#burger"><Image src={BurgerMenu} className={styles.BurgerImg} width="40" height="40" alt="BurgerMenu"/></a>
+                    </div>
+                    </div>
             </header>
         </>
     )

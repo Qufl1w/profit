@@ -35,3 +35,77 @@
 .LogisticsTransportText li {
     margin-bottom:20px;
 }
+@media (max-width: 1000px) {
+    .LogisticsTitle {
+        font-size: 60px;
+        margin-left: 20px;
+    }
+    .LogisticsImg {
+        width: 700px;
+        height: 300px;
+        object-fit: cover;
+        margin-left: 20px;
+    }
+    .LogisticsBlock {
+        margin-left: 500px;
+        margin-top: 290px;
+    }
+    .LogisticsTransportText {
+        margin-left: 20px;
+    }
+    .LogisticsTransportImg {
+        width: 430px;
+        height: 550px;
+        object-fit: cover;
+    }
+}
+@media (max-width: 640px) {
+    .LogisticsTitle {
+        font-size: 60px;
+    }
+    .LogisticsImg {
+        width: 480px;
+    }
+    .LogisticsBlock {
+        margin-left: 150px;
+        margin-top: 240px;
+    }
+    .LogisticsTransport {
+        flex-direction: column-reverse;
+    }
+    .LogisticsTransportImg {
+        width: 600px;
+        height: 350px;
+    }
+    .LogisticsTransportText {
+        margin-left: 50px;
+    }
+}
+@media (max-width: 320px) {
+    .LogisticsTitle {
+        font-size: 30px;
+    }
+    .LogisticsImg {
+        width: 260px;
+        height: 200px;
+    }
+    .LogisticsBlock {
+        margin-left: 60px;
+        margin-top: 175px;
+        margin-bottom: 275px;
+    }
+    .LogisticsBlockText {
+        width: 240px;
+    }
+    .LogisticsTransport {
+        flex-direction: column-reverse;
+    }
+    .LogisticsTransportImg {
+        width: 280px;
+        height: 200px;
+    }
+    .LogisticsTransportText {
+        width: 280px;
+        margin-left: 50px;
+    }
+} 

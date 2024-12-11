@@ -1,75 +1,253 @@
 .TourismObject {
-    object-fit:cover;
-    width:100%;
-    position:relative;
+    object-fit: cover;
+    width: 100%;
+    position: relative;
 }
+
 .ImgTitle {
-    font-size:80px;
+    font-size: 80px;
 }
+
 .TitleText {
-    position:absolute;
-    top:414px;
-    left:200px;
-    color:#FFFF;
+    position: absolute;
+    top: 414px;
+    left: 200px;
+    color: #FFFF;
+}
+.TourismObjectAdapt {
+    display: none;
 }
 .ImgTitleDesc {
-    font-size:24px;
+    font-size: 24px;
 }
+
 .ImgList {
-    margin-top:100px;
-    margin-left:200px;
+    margin-top: 100px;
+    margin-left: 200px;
 }
+
 .ImgListItems {
-    display:flex;
+    display: flex;
 }
+
 .ImgListRight {
-    display:flex;
-    flex-wrap:wrap;
-    width:540px;
-    margin-left:60px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 540px;
+    margin-left: 60px;
     justify-content: space-between;
-    gap:40px;
+    gap: 40px;
 }
+
 .ObjectBase {
-    margin-top:200px;
-    margin-left:200px;
+    margin-top: 200px;
+    margin-left: 200px;
 }
+
 .BaseTitle {
-    font-size:80px;
-    color:#1F3766;
-    margin-bottom:40px;
+    font-size: 80px;
+    color: #1F3766;
+    margin-bottom: 40px;
 }
+
 .AboutBase {
-    display:flex;
+    display: flex;
 }
+
 .BaseDesc {
-    width:550px;
-    line-height:20px;
-    margin-right:110px;
-    margin-top:-20px;
+    width: 550px;
+    line-height: 20px;
+    margin-right: 110px;
+    margin-top: -20px;
 }
+
 .BaseDescText {
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
+
 .InfoText {
-    display:flex;
-    align-items:center;
-    gap:5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
+
 .BaseDescInfo {
-    display:flex;
+    display: flex;
 }
+
 .Info {
-    margin-bottom:-15px;
-    display:flex;
-    gap:40px;
+    margin-bottom: -15px;
+    display: flex;
+    gap: 40px;
 }
+
 .InfoLink {
-    text-decoration:none;
+    text-decoration: none;
 }
+
 .BaseDescInfo {
-    width:700px;
+    width: 700px;
 }
+
 .InfoDesc {
-    margin-right:70px;
+    margin-right: 70px;
+}
+
+@media (max-width: 1000px) {
+    .TourismObject {
+        width: 1000px;
+        height: 550px;
+        object-fit: cover;
+    }
+    .TitleText {
+        top: 200px;
+        left: 20px;
+    }
+    .ImgTitle {
+        font-size: 70px;
+    }
+    .ImgList {
+        margin-left: 20px;
+    }
+    .TourismObject2 {
+        width: 460px;
+        height: 500px;
+        object-fit: cover;
+    }
+    .TourismObjectList1 {
+        width: 220px;
+        object-fit: cover;
+    }
+    .TourismObjectList2 {
+        width: 220px;
+        object-fit: cover;
+    }
+    .TourismObjectList3 {
+        width: 220px;
+        object-fit: cover;
+    }
+    .TourismObjectList4 {
+        width: 220px;
+        object-fit: cover;
+    }
+    .ImgListRight {
+        margin-left: 20px;
+        justify-content: flex-start;
+    }
+    .ObjectBase {
+        margin-left: 20px;
+    }
+    .BaseTitle {
+        font-size: 70px;
+    }
+    .TourismObjectAdapt {
+        display:inline;
+        width: 430px;
+        height: 510px;
+        object-fit: cover;
+    }
+    .TourismBase {
+        display: none;
+    }
+    .BaseDescInfo {
+        flex-direction: column;
+    }
+    .TourismRublino {
+        margin-top: 40px;
+    }
+    .BaseDesc {
+        width: 480px;
+        margin-right: 50px;
+    }
+}
+@media (max-width:640px) {
+    .TourismObject {
+        width: 640px;
+    }
+    .TitleText {
+        top: 180px;
+    }
+    .ImgTitle {
+        font-size: 60px;
+    }
+    .ImgListItems {
+         flex-direction: column;
+    }
+    .ImgListRight {
+        margin-left:0px;
+        margin-top: 40px;
+        justify-content: flex-start;
+        width: auto;
+    }
+    .TourismObject2 {
+        width: 600px;
+    }
+    .TourismObjectList1 {
+        width: 280px;
+    }
+    .TourismObjectList2 {
+        width: 280px;
+    }
+    .TourismObjectList3 {
+        width: 280px;
+    }
+    .TourismObjectList4 {
+        width: 280px;
+    }
+    .BaseTitle {
+        font-size: 60px;
+    }
+    .AboutBase {
+        flex-direction: column;
+    }
+    .TourismObjectAdapt {
+        width: 600px;
+        height: 430px;      
+    }
+    .TourismRublino {
+        margin-bottom: 60px;
+    }
+}
+@media (max-width:320px) {
+    .TourismObject {
+        width: 320px;
+    }
+    .TitleText {
+        top: 190px;
+    }
+    .ImgTitle {
+        font-size: 40px;
+    }
+    .ImgTitleDesc {
+        width: 280px;
+    }
+    .TourismObject2 {
+        width: 280px;
+        height: 450px;
+    }
+    .TourismObjectList3 {
+        display: none;
+    }
+    .TourismObjectList4 {
+        display: none;
+    }
+    .BaseTitle {
+        font-size: 30px;
+    }
+    .ObjectBase {
+        margin-top: 60px;
+    }
+    .BaseDesc {
+        width: 280px;
+    }
+    .Info {
+        gap: 10px;
+    }
+    .InfoTextAdapt {
+        width: 250px;
+    }
+    .TourismObjectAdapt {
+        width: 280px;
+        height: 400px;
+    }
 }

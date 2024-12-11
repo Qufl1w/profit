@@ -14,7 +14,7 @@ export default function Page() {
     <>
       <div className={styles.AboutUsText1}>Приморстрой ставит интересы людей на первое место</div>
       <div className={styles.AboutUsImg1}>
-        <Image src={AboutUsImg1} width="960" height="400" alt="AboutUsImg1" /></div>
+        <Image src={AboutUsImg1} className={styles.AboutUsImg1} width="960" height="400" alt="AboutUsImg1" /></div>
       <div className={styles.AboutUsBlock1}>
         <div className={styles.AboutUsHeading}>О нас</div>
         <div className={styles.AboutUsDescription}>Мы предлагаем высокий уровень вовлеченности, активное общение
@@ -47,58 +47,69 @@ export default function Page() {
             объектов капитального строительства, в строгом соответствии которого ведется строительство объектов.</p>
         </div>
         <div className={styles.AboutCompanyImg}>
-          <Image src={AboutCompanyimg} width="600" height="400" alt="AboutCompanyimg" /></div>
+          <Image src={AboutCompanyimg} className={styles.AboutCompanyimg} width="600" height="400" alt="AboutCompanyimg" /></div>
       </div>
       <section className={styles.AboutUsTile}>
-        <Image src={AboutUsTile} className={styles.AboutUsTileImg} height="800" alt="AboutUsTile" />
-        <div className={styles.AboutUsTileBlock1}>
-          <div className={styles.AboutUsBlock1TitleText}>
-            <div className={styles.AboutUsBlock1Title}>c</div>
-            <div className={styles.AboutUsBlock1Title1}>1969</div>
+        <div className={styles.AboutUsTileImg}>
+          <Image src={AboutUsTile} className={styles.AboutUsTileImg} height="800" alt="AboutUsTile" />
+
+          <div className={styles.AboutUsBlocks}>
+            
+            <div className={styles.BlocksGroup1}>
+              <div className={styles.AboutUsTileBlock1}>
+                <div className={styles.AboutUsBlock1TitleText}>
+                  <div className={styles.AboutUsBlock1Title}>c</div>
+                  <div className={styles.AboutUsBlock1Title1}>1969</div>
+                </div>
+                <p className={styles.AboutUsBlock1Text}>года на рынке строительства</p>
+              </div>
+
+              <div className={styles.AboutUsTileBlock2}>
+                <div className={styles.AboutUsBlock2Title}>5</div>
+                <p className={styles.AboutUsBlock2Text}>организаций входит в группу компаний</p>
+              </div>
+
+              <div className={styles.AboutUsTileBlock3}>
+                <div className={styles.AboutUsBlock3Title}>6</div>
+                <p className={styles.AboutUsBlock3Text}>направлений деятельности</p>
+              </div>
+
+              <div className={styles.AboutUsTileBlock4}>
+                <div className={styles.AboutUsBlock4Title}>более</div>
+                <div className={styles.AboutUsBlock4Title1}>53</div>
+                <p className={styles.AboutUsBlock4Text}>домов построено в Приморском крае</p>
+              </div>
+            </div>
+
+            <div className={styles.BlocksGroup2}>
+              <div className={styles.AboutUsTileBlock5}>
+                <div className={styles.AboutUsBlock5Title}>870</div>
+                <p className={styles.AboutUsBlock5Text}>специалистов и рабочих на объектах</p>
+              </div>
+
+              <div className={styles.AboutUsTileBlock6}>
+                <div className={styles.AboutUsBlock6Title}>6150</div>
+                <p className={styles.AboutUsBlock6Text}>квартир реализовано</p>
+              </div>
+
+              <div className={styles.AboutUsTileBlock7}>
+                <div className={styles.AboutUsBlock7Title}>более</div>
+                <div className={styles.AboutUsBlock7Title1}>8000</div>
+                <p className={styles.AboutUsBlock7Text}>счастливых новоселов</p>
+              </div>
+
+              <div className={styles.AboutUsTileBlock8}>
+                <div className={styles.AboutUsBlock8Title}>85</div>
+                <div className={styles.AboutUsBlock8Title1}>тыс. кв. м.</div>
+                <p className={styles.AboutUsBlock8Text}>реализованные проекты</p>
+              </div>
+            </div>
           </div>
-          <p className={styles.AboutUsBlock1Text}>года на рынке строительства</p>
-        </div>
-        <div className={styles.AboutUsTileBlock2}>
-          <div className={styles.AboutUsBlock2Title}>5</div>
-          <p className={styles.AboutUsBlock2Text}>организаций входит в группу компаний</p>
-        </div>
-
-        <div className={styles.AboutUsTileBlock3}>
-          <div className={styles.AboutUsBlock3Title}>6</div>
-          <p className={styles.AboutUsBlock3Text}>направлений деятельности</p>
-        </div>
-
-        <div className={styles.AboutUsTileBlock4}>
-          <div className={styles.AboutUsBlock4Title}>более</div>
-          <div className={styles.AboutUsBlock4Title1}>53</div>
-          <p className={styles.AboutUsBlock4Text}>домов построено в Приморском крае</p>
-        </div>
-
-        <div className={styles.AboutUsTileBlock5}>
-          <div className={styles.AboutUsBlock5Title}>870</div>
-          <p className={styles.AboutUsBlock5Text}>специалистов и рабочих на объектах</p>
-        </div>
-
-        <div className={styles.AboutUsTileBlock6}>
-          <div className={styles.AboutUsBlock6Title}>6150</div>
-          <p className={styles.AboutUsBlock6Text}>квартир реализовано</p>
-        </div>
-
-        <div className={styles.AboutUsTileBlock7}>
-          <div className={styles.AboutUsBlock7Title}>более</div>
-          <div className={styles.AboutUsBlock7Title1}>8000</div>
-          <p className={styles.AboutUsBlock7Text}>счастливых новоселов</p>
-        </div>
-
-        <div className={styles.AboutUsTileBlock8}>
-          <div className={styles.AboutUsBlock8Title}>85</div>
-          <div className={styles.AboutUsBlock8Title1}>тыс. кв. м.</div>
-          <p className={styles.AboutUsBlock8Text}>реализованные проекты</p>
-        </div>
+          </div>
       </section>
       <section className={styles.AboutUsManSection}>
         <div className={styles.AboutUsman}>
-          <Image src={AboutUsMan} height="450" alt="AboutUsMan" />
+          <Image src={AboutUsMan} className={styles.AboutUsMan} height="450" alt="AboutUsMan" />
 
           <div className={styles.AboutUsText}>
             <p>Благодарю Вас за интерес к компании Приморстрой.</p>
@@ -114,6 +125,7 @@ export default function Page() {
 
             <p>Я благодарен всем нашим клиентам за оказанное доверие и продуктивное сотрудничество.
               Без вас развитие и рост нашего коллектива был бы невозможен. И именно вы внесли большой вклад в эволюцию компании Приморстрой.</p>
+              <div className={styles.stripe}></div>
             <Image src={AboutUsPainting} className={styles.AboutUsPainImg} width="190" height="120" alt="AboutUsMan" />
             <div className={styles.AboutUsPainTitle}>Бай Личэн</div>
             <p className={styles.AboutUsPainText}>Основатель и генеральный директор компании Приморстрой</p>
@@ -123,6 +135,7 @@ export default function Page() {
 
       <section className={styles.AboutUsComGroup}>
         <div className={styles.AboutUsComGroupTitle}>Компании группы</div>
+               <div className={styles.AboutUsCom}>
         <Image src={AboutUsComGroupImg} className={styles.AboutUsComGroupImg} width="500" height="500" alt="AboutUsComGroup" />
         <div className={styles.AboutUsComGroupText}>
           <p>Мы работаем в сфере строительства с 1969 года. За это время мы создали обширную материально-техническую
@@ -134,14 +147,15 @@ export default function Page() {
           <li><b>ООО СЗ Корал Рэд </b>(застройщик)</li>
           <li><b>ООО СЗ Кунгасстрой </b>(застройщик)</li>
         </div>
+        </div>
       </section>
       <div className={styles.AboutUsComGroupimg}>
-        <Image src={logo_red} width="210" height="65" alt="logo_red"/>
-        <Image src={logo_red} width="210" height="65" alt="logo_red"/>
-        <Image src={logo_red} width="210" height="65" alt="logo_red"/>
-        <Image src={logo_red} width="210" height="65" alt="logo_red"/>
-        <Image src={logo_red} width="210" height="65" alt="logo_red"/>
-        </div>
+        <Image src={logo_red} className={styles.logo_red} width="210" height="65" alt="logo_red" />
+        <Image src={logo_red} className={styles.logo_red} width="210" height="65" alt="logo_red" />
+        <Image src={logo_red} className={styles.logo_red} width="210" height="65" alt="logo_red" />
+        <Image src={logo_red} className={styles.logo_red} width="210" height="65" alt="logo_red" />
+        <Image src={logo_red} className={styles.logo_red} width="210" height="65" alt="logo_red" />
+      </div>
     </>
   )
 }
